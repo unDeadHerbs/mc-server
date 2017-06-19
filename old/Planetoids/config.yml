@@ -1,0 +1,51 @@
+planetoids:
+  autocreateworld: true
+  worldname: Planetoids
+  alwaysnight: false
+  weather: false
+  commands:
+    pltp: true
+  disablemonsters: true
+  disableanimals: false
+  planets:
+    density: 750
+    minSize: 4
+    maxSize: 20
+    minDistance: 10
+    minShellSize: 3
+    maxShellSize: 5
+    floorBlock: GRASS
+    floorBlockData: 0
+    floorHeight: 0
+    bedrock: false
+    blocks:
+      cores:
+      - PUMPKIN-0.8
+      - STATIONARY_LAVA-0.8
+      - STATIONARY_WATER-1.0
+      - COAL_ORE-1.0
+      - IRON_ORE-0.8
+      - DIAMOND_ORE-0.4
+      - CLAY-0.3
+      - LAPIS_ORE-0.4
+      - LOG-1.0
+      - GOLD_ORE-0.6
+      - REDSTONE_ORE-0.75
+      - SAND-1.0
+      - BEDROCK-0.5
+      - AIR-1.0
+      - DIRT-1.0
+      shells:
+      - STONE-1.0
+      - DIRT-1.0
+      - LEAVES-0.9
+      - ICE-0.9
+      - SNOW_BLOCK-0.9
+      - GLOWSTONE-0.4
+      - BRICK-0.6
+      - SANDSTONE-0.8
+      - OBSIDIAN-0.5
+      - MOSSY_COBBLESTONE-0.3
+      - WOOL-0.4
+      - 35-1.0-11
+      - GLASS-0.9

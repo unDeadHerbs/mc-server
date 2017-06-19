@@ -1,0 +1,34 @@
+# Multiverse-Inventories Groups
+
+# To ADD, DELETE, and EDIT groups use the command /mvinv group.
+# No support will be given for those who manually edit these groups.
+groups:
+  default:
+    shares:
+    - all
+  creative:
+    worlds:
+    - SkyBlockKevin
+    - world_nether
+    - world
+    - world_the_end
+    shares:
+    - all
+  Deities:
+    worlds:
+    - Deities
+    - Deities_nether
+    shares:
+    - all
+  Island:
+    worlds:
+    - Island
+    - Island_nether
+    shares:
+    - all
+  LPL:
+    worlds:
+    - LPL
+    - LPL_nether
+    shares:
+    - all

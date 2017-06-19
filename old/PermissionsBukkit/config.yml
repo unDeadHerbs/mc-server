@@ -1,0 +1,198 @@
+# PermissionsBukkit configuration file
+# 
+# A permission node is a string like 'permissions.build', usually starting
+# with the name of the plugin. Refer to a plugin's documentation for what
+# permissions it cares about. Each node should be followed by true to grant
+# that permission or false to revoke it, as in 'permissions.build: true'.
+# Some plugins provide permission nodes that map to a group of permissions -
+# for example, PermissionsBukkit has 'permissions.*', which automatically
+# grants all admin permissions. You can also specify false for permissions
+# of this type.
+# 
+# Users inherit permissions from the groups they are a part of. If a user is
+# not specified here, or does not have a 'groups' node, they will be in the
+# group 'default'. Permissions for individual users may also be specified by
+# using a 'permissions' node with a list of permission nodes, which will
+# override their group permissions. World permissions may be assigned to
+# users with a 'worlds:' entry.
+# 
+# Groups can be assigned to players and all their permissions will also be
+# assigned to those players. Groups can also inherit permissions from other
+# groups. Like user permissions, groups may override the permissions of their
+# parent group(s). Unlike users, groups do NOT automatically inherit from
+# default. World permissions may be assigned to groups with a 'worlds:' entry.
+groups:
+  default:
+    permissions:
+      permissions.build: false
+      multiverse.core.spawn.self: true
+      multiverse.portal.access.*: true
+      bookshelf.*: true
+      multiverse.access.*: true
+  user:
+    permissions:
+      multiverse.help: true
+      epicglass.*: true
+      multiverse.core.info: true
+      multiverse.core.list.worlds: true
+      multiverse.teleport.self.NAME: true
+      multiverse.core.spawn.self: true
+      multiverse.teleport.self.*: true
+      multiverse.portal.access.*: true
+      minecraft.command.tell: true
+      minecraft.command.kill: true
+      minecraft.command.me: true
+      minecraft.command.tp: true
+      multiverse.access.*: true
+      bookshelf.*: true
+      multiverse.access.KingdomCome_nether: true
+      multiverse.access.KingdomCome_the_end: true
+      hsp.full: true
+  world:
+    worlds:
+      world:
+        permissions.build: true
+        runecraft.*: true
+  nyan:
+    worlds:
+      aeterna:
+        permissions.build: true
+        runecraft.*: true
+      Dities:
+        permissions.build: true
+        runecraft.*: true
+  island:
+    worlds:
+      Island:
+        permissions.build: true
+        runecraft.*: true
+      Island_nether:
+        permissions.build: true
+        runecraft.*: true
+  wordledit:
+    permissions:
+      worldedit.*: true
+  vox:
+    permissions:
+      voxelsniper.sniper: true
+  gamemod:
+    worlds:
+      bukkit.command.gamemode: true
+  admin:
+    permissions:
+      permissions.*: true
+      multiverse.*: true
+      pTweaks.*: true
+      runecraft.*: true
+      protocol.admin: true
+      minecraft.command.*: true
+      bukkit.command.*: true
+      epicglass.*: true
+      mvonv.*: true
+      dynmap.*: true
+      planetoids.*: true
+  excavator:
+    permissions:
+      excavator.toggle: true
+  stronghold:
+    worlds:
+      first_example_world:
+        permissions.build: true
+  lpl:
+    worlds:
+      LPL:
+        permissions.build: true
+      LPL_nether:
+        permissions.build: true
+messages:
+  build: '&cYou do not have permission to build here.'
+debug: false
+users:
+  fa7d66cd-3ba4-4da9-b9d0-5b47f28d3c49:
+    groups:
+    - user
+    - nyan
+  2d9c548c-feaf-4531-95dc-2d575cb0356f:
+    groups:
+    - user
+    - nyan
+  3caf52ec-f18f-4224-ac3f-20a4734a983e:
+    groups:
+    - user
+    - nyan
+    - world
+    - wordledit
+    - admin
+    - island
+    - gamemod
+    - excavator
+    - lpl
+  e22cc286-8b22-472d-9743-594e7b1aeee8:
+    groups:
+    - user
+    - nyan
+    - world
+    - island
+    - lpl
+    - excavator
+  1e96be40-ba8f-4df5-bbc2-e45af7c6eda3:
+    groups:
+    - user
+    - nyan
+    - island
+  ad54f9e6-443f-442d-af98-bbf4692994f6:
+    groups:
+    - user
+    - world
+  eea40d3e-4bb4-46d8-b547-76653ebd10ff:
+    groups:
+    - user
+    - nyan
+    - island
+  7f4c6b12-74a1-474a-8b32-9a07bb890e16:
+    groups:
+    - user
+    - world
+  a1853268-aa68-4216-bc8c-4ba10be962d9:
+    groups:
+    - user
+    - island
+    - world
+    - nyan
+  7bb29fd2-0f60-4b67-803b-adc35f384830:
+    groups:
+    - user
+    - island
+    - lpl
+  5d37eb43-9e7b-4f97-a761-1c57dadf6ff1:
+    groups:
+    - user
+    - island
+    - lpl
+  fc22aaad-dcf7-4c9e-a5a0-622b0ade1cc3:
+    groups:
+    - user
+    - world
+    - island
+    - excavator
+    - lpl
+    - gamemod
+  5ecffea5-477a-47e1-b907-ff29d7073b42:
+    groups:
+    - user
+    - world
+    - island
+    - vox
+    - wordledit
+  0d681dce-3b12-451f-ba43-f5654b37e79f:
+    groups:
+    - lpl
+    - island
+    - user
+  89f24e07-2143-4583-a75b-4ad7e6ec67f5:
+    groups: []
+  45916463-0b57-4cd0-8409-af5b2f5fd3ee:
+    groups:
+    - user
+    - nyan
+    - world

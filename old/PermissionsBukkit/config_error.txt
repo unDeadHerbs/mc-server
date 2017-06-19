@@ -1,0 +1,9 @@
+Use the following website to help you find and fix configuration errors:
+https://yaml-online-parser.appspot.com/
+
+org.bukkit.configuration.InvalidConfigurationException: while scanning for the next token
+found character 	 '\t(TAB)' that cannot start any token. (Do not use \t(TAB) for indentation)
+ in 'string', line 1, column 1:
+    	# PermissionsBukkit configurati ... 
+    ^
+

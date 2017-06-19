@@ -1,0 +1,28 @@
+# Dungeon Maze worlds
+worlds: []
+preloadWorlds: []
+unloadWorldsOnPluginDisable: true
+allowSurface: true
+worldProtection: false
+blockWhiteList: []
+updateChecker:
+  enabled: true
+  notifyForUpdatesInGame: true
+  autoInstallUpdates: true
+  notifyInGame: true
+usePermissions: true
+useBypassPermissions: true
+api:
+  enabled: true
+mobs:
+- Blaze
+- Creeper
+- Enderman
+- Ghast
+- MagmaCube
+- Pig
+- PigZombie
+- Silverfish
+- Skeleton
+- Spider
+- Zombie

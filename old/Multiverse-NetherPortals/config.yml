@@ -1,0 +1,22 @@
+netherportals:
+  name:
+    suffix: _nether
+worlds:
+  SkyBlockKevin:
+    portalgoesto:
+      NETHER: SkyBlockKevin_nether
+  SkyBlockKevin_nether:
+    portalgoesto:
+      NETHER: SkyBlockKevin
+  SkyBlock:
+    portalgoesto: {}
+  SkyBlock_nether:
+    portalgoesto: {}
+  Deities:
+    portalgoesto:
+      NETHER: Deities_nether
+      END: Deities_the_end
+  Island:
+    portalgoesto:
+      NETHER: Island_nether
+bounceback: true

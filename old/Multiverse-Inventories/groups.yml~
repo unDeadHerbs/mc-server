@@ -1,0 +1,42 @@
+# Multiverse-Inventories Groups
+
+# To ADD, DELETE, and EDIT groups use the command /mvinv group.
+# No support will be given for those who manually edit these groups.
+groups:
+  default:
+    shares:
+    - all
+  creative:
+    worlds:
+    - SkyBlockKevin
+    - world_nether
+    - world
+    - world_the_end
+    shares:
+    - hit_points
+    - economy
+    - food_level
+    - saturation
+    - exhaustion
+    - xp
+    - total_xp
+    - lvl
+    - inventory_contents
+    - armor_contents
+    - maximum_air
+    - remaining_air
+    - fall_distance
+    - fire_ticks
+    - potion_effects
+    - last_location
+    - ender_chest
+  Deities:
+    worlds:
+    - Deities
+    - Deities_nether
+  Island:
+    worlds:
+    - Island
+    - Island_nether
+    shares:
+    - all
