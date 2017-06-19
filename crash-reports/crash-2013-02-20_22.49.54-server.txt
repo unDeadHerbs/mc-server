@@ -1,0 +1,42 @@
+---- Minecraft Crash Report ----
+// I feel sad now :(
+
+Time: 2/20/13 10:49 PM
+Description: Exception in server tick loop
+
+java.lang.NullPointerException
+	at net.minecraft.server.v1_4_R1.DedicatedServer.al(DedicatedServer.java:256)
+	at net.minecraft.server.v1_4_R1.DedicatedServer.a(DedicatedServer.java:202)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:434)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.4.7
+	Operating System: Linux (i386) version 3.7.8-1-ARCH
+	Java Version: 1.6.0_27, Sun Microsystems Inc.
+	Java VM Version: OpenJDK Client VM (mixed mode), Sun Microsystems Inc.
+	Memory: 929069872 bytes (886 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 2 total; -Xms1024M -Xmx1024M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Suspicious classes: [net.minecraft.server.v1_4_R1.ICommandListener, IMojangStatistics, Packet, ...], [org.bukkit.World, BlockChangeDelegate, Server], [org.bukkit.block.BlockState], [org.bukkit.command.CommandSender, RemoteConsoleCommandSender], [org.bukkit.configuration.serialization.ConfigurationSerializable], [org.bukkit.craftbukkit.Main], [org.bukkit.craftbukkit.libs.jline.TerminalFactory, Terminal, Flavor, ...], [org.bukkit.craftbukkit.libs.jline.console.ConsoleReader, CursorBuffer, ConsoleKeys, ...], [org.bukkit.craftbukkit.libs.jline.console.completer.CompletionHandler, CandidateListCompletionHandler], [org.bukkit.craftbukkit.libs.jline.console.history.History, MemoryHistory], [org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader, Configuration, Log, ...], [org.bukkit.craftbukkit.libs.joptsimple.OptionException, OptionParser, OptionSpec, ...], [org.bukkit.craftbukkit.libs.joptsimple.internal.AbbreviationMap, ReflectionException, Reflection, ...], [org.bukkit.craftbukkit.libs.joptsimple.util.KeyValuePair], [org.bukkit.craftbukkit.v1_4_R1.LoggerOutputStream], [org.bukkit.craftbukkit.v1_4_R1.inventory.CraftItemStack, CraftRecipe, CraftShapedRecipe, ...], [org.bukkit.craftbukkit.v1_4_R1.potion.CraftPotionEffectType], [org.bukkit.craftbukkit.v1_4_R1.util.Waitable, ServerShutdownThread, TerminalConsoleHandler, ...], [org.bukkit.entity.Entity], [org.bukkit.event.Event, Cancellable, HandlerList, ...], [org.bukkit.event.block.BlockEvent, BlockFadeEvent, BlockGrowEvent, ...], [org.bukkit.event.entity.EntityEvent, EntityInteractEvent, EntityDamageEvent, ...], [org.bukkit.event.hanging.HangingEvent, HangingPlaceEvent], [org.bukkit.event.painting.PaintingEvent, PaintingPlaceEvent], [org.bukkit.event.player.PlayerEvent, PlayerInteractEvent, PlayerFishEvent], [org.bukkit.event.server.ServerEvent, MapInitializeEvent, ServerCommandEvent], [org.bukkit.event.world.WorldEvent, WorldSaveEvent, WorldInitEvent, ...], [org.bukkit.inventory.ItemStack, Recipe, ShapedRecipe, ...], [org.bukkit.map.MapView], [org.bukkit.metadata.Metadatable], [org.bukkit.permissions.ServerOperator, Permissible], [org.bukkit.plugin.messaging.PluginMessageRecipient], [org.bukkit.potion.PotionEffectType, PotionEffectTypeWrapper], [org.fusesource.jansi.AnsiOutputStream, Ansi, NoAnsi, ...]
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	CraftBukkit Information: 
+   Running: 
+   Failed to handle CraftCrashReport:
+java.lang.NullPointerException
+	at org.bukkit.Bukkit.getName(Bukkit.java:68)
+	at org.bukkit.craftbukkit.v1_4_R1.CraftCrashReport.call(CraftCrashReport.java:20)
+	at net.minecraft.server.v1_4_R1.CrashReportSystemDetails.a(SourceFile:74)
+	at net.minecraft.server.v1_4_R1.CrashReport.h(CrashReport.java:43)
+	at net.minecraft.server.v1_4_R1.CrashReport.<init>(CrashReport.java:30)
+	at net.minecraft.server.v1_4_R1.MinecraftServer.run(MinecraftServer.java:444)
+	at net.minecraft.server.v1_4_R1.ThreadServerApplication.run(SourceFile:849)
+
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'craftbukkit'
+	Type: Dedicated Server (map_server.txt)
