@@ -1,3 +1,6 @@
 [submodule "worlds"]
 	path = worlds
 	url = git@github.com:unDeadHerbs/mc-server.git
+[submodule "plugins"]
+	path = plugins
+	url = git@github.com:unDeadHerbs/mc-server.git
