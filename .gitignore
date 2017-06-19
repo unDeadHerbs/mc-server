@@ -10,3 +10,5 @@ CraftBukkit/**/*
 Spigot/
 Spigot/*
 Spigot/**/*
+usercache.json
+whitelist.json
