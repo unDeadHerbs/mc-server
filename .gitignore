@@ -1,14 +1,2 @@
-BuildData/
-BuildData/*
-BuildData/**/*
-Bukkit/
-Bukkit/*
-Bukkit/**/*
-CraftBukkit/
-CraftBukkit/*
-CraftBukkit/**/*
-Spigot/
-Spigot/*
-Spigot/**/*
 usercache.json
 whitelist.json
