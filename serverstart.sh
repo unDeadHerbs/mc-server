@@ -4,7 +4,7 @@ git fetch --depth=1 origin master
 git merge --no-ff origin/next
 cd worlds
 git add --all
-git commit -m "auto commit on `date \"+%Y-%m-%d\"`"
+git commit -m "auto commit on `date \"+%Y-%m-%d\"`" --allow-empty
 git push
 git fetch --depth=1 origin worlds
 git gc
