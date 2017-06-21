@@ -1,6 +1,8 @@
 #!/bin/sh
 
 git fetch origin running
+git submodule sync
+git submodule update --init --recursive
 git merge --no-ff origin/next --no-edit
 cd worlds
 git add --all
