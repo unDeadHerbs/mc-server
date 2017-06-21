@@ -1,6 +1,6 @@
 #!/bin/sh
 
-git fetch --depth=1 origin master
+git fetch origin running
 git merge --no-ff origin/next --no-edit
 cd worlds
 git add --all
@@ -12,7 +12,6 @@ cd ..
 git add --all
 git commit -m "auto commit on `date \"+%Y-%m-%d\"`"
 git push
-git fetch --depth=1 origin master
 git gc
 
 BINDIR=$(dirname "$(readlink -fn "$0")")
