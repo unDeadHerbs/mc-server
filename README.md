@@ -19,5 +19,7 @@ Branches
 
 TODO list
 ---------
+- have worlds sim-linked to folder
+- make a script to auto sim-link worlds to folder
 - have server auto restart on shutdown
 - have mechanism to not restart server from mc admin
