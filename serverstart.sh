@@ -1,18 +1,19 @@
 #!/bin/sh
 
-git fetch --depth=1 origin master
-git merge --no-ff origin/next
+git fetch origin running
+git merge --no-ff origin/next --no-edit
+git submodule sync
+git submodule update --init --recursive
+# run update worlds script
 cd worlds
 git add --all
-git commit -m "auto commit on `date \"+%Y-%m-%d\"`"
-git push
-git fetch --depth=1 origin worlds
+git commit -m "auto commit on `date \"+%Y-%m-%d\"`" --allow-empty
+git push && git fetch --depth=1 origin worlds
 git gc
 cd ..
 git add --all
 git commit -m "auto commit on `date \"+%Y-%m-%d\"`"
 git push
-git fetch --depth=1 origin master
 git gc
 
 BINDIR=$(dirname "$(readlink -fn "$0")")
