@@ -1,9 +1,9 @@
 #!/bin/sh
 
 git fetch origin running
+git merge --no-ff origin/next --no-edit
 git submodule sync
 git submodule update --init --recursive
-git merge --no-ff origin/next --no-edit
 cd worlds
 git add --all
 git commit -m "auto commit on `date \"+%Y-%m-%d\"`" --allow-empty
