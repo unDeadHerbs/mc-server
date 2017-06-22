@@ -11,4 +11,8 @@
 # (not sure how to do that, prehaps check untracked folders?)
 
 # create a simlink to every folder in /worlds
+for wrd in $(ls worlds)
+do
+    ln -sf "worlds/$wrd" "$wrd"
+done
 # (don't re-make ones that already exist)
