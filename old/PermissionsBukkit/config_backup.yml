@@ -1,0 +1,145 @@
+# PermissionsBukkit configuration file
+# 
+# A permission node is a string like 'permissions.build', usually starting
+# with the name of the plugin. Refer to a plugin's documentation for what
+# permissions it cares about. Each node should be followed by true to grant
+# that permission or false to revoke it, as in 'permissions.build: true'.
+# Some plugins provide permission nodes that map to a group of permissions -
+# for example, PermissionsBukkit has 'permissions.*', which automatically
+# grants all admin permissions. You can also specify false for permissions
+# of this type.
+# 
+# Users inherit permissions from the groups they are a part of. If a user is
+# not specified here, or does not have a 'groups' node, they will be in the
+# group 'default'. Permissions for individual users may also be specified by
+# using a 'permissions' node with a list of permission nodes, which will
+# override their group permissions. World permissions may be assigned to
+# users with a 'worlds:' entry.
+# 
+# Groups can be assigned to players and all their permissions will also be
+# assigned to those players. Groups can also inherit permissions from other
+# groups. Like user permissions, groups may override the permissions of their
+# parent group(s). Unlike users, groups do NOT automatically inherit from
+# default. World permissions may be assigned to groups with a 'worlds:' entry.
+groups:
+  default:
+    permissions:
+      permissions.build: false
+      multiverse.core.spawn.self: true
+      multiverse.portal.access.*: true
+      bookshelf.*: true
+      multiverse.access.*: true
+  user:
+    permissions:
+      multiverse.help: true
+      epicglass.*: true
+      multiverse.core.info: true
+      multiverse.core.list.worlds: true
+      multiverse.teleport.self.NAME: true
+      multiverse.core.spawn.self: true
+      multiverse.teleport.self.*: true
+      multiverse.portal.access.*: true
+      minecraft.command.tell: true
+      minecraft.command.kill: true
+      minecraft.command.me: true
+      minecraft.command.tp: true
+      multiverse.access.*: true
+      bookshelf.*: true
+  scrod:
+    inheritance:
+    - user
+    worlds:
+      world:
+        permissions.build: true
+        runecraft.*: true
+  widfam:
+    inheritance:
+    - user
+    worlds:
+      world:
+        permissions.build: true
+        runecraft.*: true
+  corner:
+    inheritance:
+    - user
+    worlds:
+      world:
+        permissions.build: true
+        runecraft.*: true
+  nyan:
+    inheritance:
+    - user
+    worlds:
+      world:
+        permissions.build: true
+        runecraft.*: true
+      aeterna:
+        permissions.build: true
+        runecraft.*: true
+      Dities:
+        permissions.build: true
+        runecraft.*: true
+  island:
+    inheritance:
+    - user
+    worlds:
+      Island:
+        permissions.build: true
+        runecraft.*: true
+  wordledit:
+    permissions:
+      worldedit.*: true
+  vox:
+    permissions:
+      voxelsniper.sniper: true
+  gamemod:
+    worlds:
+      bukkit.command.gamemode: true
+  admin:
+    inheritance:
+    - user
+    permissions:
+      permissions.*: true
+      multiverse.*: true
+      pTweaks.*: true
+      runecraft.*: true
+      protocol.admin: true
+      minecraft.command.*: true
+      bukkit.command.*: true
+      epicglass.*: true
+      mvonv.*: true
+      dynmap.*: true
+      planetoids.*: true
+messages:
+  build: '&cYou do not have permission to build here.'
+debug: false
+users:
+  fa7d66cd-3ba4-4da9-b9d0-5b47f28d3c49:
+    groups:
+    - nyan
+  2d9c548c-feaf-4531-95dc-2d575cb0356f:
+    groups:
+    - nyan
+    - wordledit
+  3caf52ec-f18f-4224-ac3f-20a4734a983e:
+    groups:
+    - nyan
+    - scrod
+    - corner
+    - mncht
+    - wordledit
+    - admin
+    - island
+    - gamemod
+  e22cc286-8b22-472d-9743-594e7b1aeee8:
+    groups:
+    - nyan
+    - scrod
+    - island
+  1e96be40-ba8f-4df5-bbc2-e45af7c6eda3:
+    groups:
+    - nyan
+    - island
+  ad54f9e6-443f-442d-af98-bbf4692994f6:
+    groups:
+    - corner

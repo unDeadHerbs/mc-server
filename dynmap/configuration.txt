@@ -13,8 +13,27 @@
 #   The definitions of these templates are in normal-hi_boost_vhi.txt, nether-hi_boost_vhi.txt, and the_end-hi_boost_vhi.txt
 # To use the HDMap hi-res (16 ppb) map templates, with support for boosting resolution selectively to xhi-res (64 ppb), set value to hi_boost_xhi
 #   The definitions of these templates are in normal-hi_boost_xhi.txt, nether-hi_boost_xhi.txt, and the_end-hi_boost_xhi.txt
-deftemplatesuffix: vlowres
+deftemplatesuffix: hires
 
+# Map storage scheme: only uncomment one 'type' value
+#  filetree: classic and default scheme: tree of files, with all map data under the directory indicated by 'tilespath' setting
+#  sqlite: single SQLite database file (this can get VERY BIG), located at 'dbfile' setting (default is file dynmap.db in data directory)
+#  mysql: MySQL database, at hostname:port in database, accessed via userid with password
+storage:
+  # Filetree storage (standard tree of image files for maps)
+  type: filetree
+  # SQLite db for map storage (uses dbfile as storage location)
+  #type: sqlite
+  #dbfile: dynmap.db
+  # MySQL DB for map storage (at 'hostname':'port' in database 'database' using user 'userid' password 'password' and table prefix 'prefix'
+  #type: mysql
+  #hostname: localhost
+  #port: 3306
+  #database: dynmap
+  #userid: dynmap
+  #password: dynmap
+  #prefix: ""
+  
 components:
   - class: org.dynmap.ClientConfigurationComponent
   
@@ -86,6 +105,8 @@ components:
     type: markers
     showlabel: false
     enablesigns: false
+    # Default marker set for sign markers
+    default-sign-set: markers
     # (optional) add spawn point markers to standard marker layer
     showspawn: true
     spawnicon: world
@@ -104,6 +125,8 @@ components:
     spawnbedhidebydefault: true
     spawnbedminzoom: 0
     spawnbedformat: "%name%'s bed"
+    # (optional) show world border (vanilla 1.8+)
+    showworldborder: true
     
   - class: org.dynmap.ClientComponent
     type: chat
@@ -183,7 +206,7 @@ renderacceleratethreshold: 60
 renderaccelerateinterval: 0.2
 
 # How many update tiles to work on at once (if not defined, default is 1/2 the number of cores)
-tiles-rendered-at-once: 1
+tiles-rendered-at-once: 2
 
 # If true, use normal priority threads for rendering (versus low priority) - this can keep rendering
 # from starving on busy Windows boxes (Linux JVMs pretty much ignore thread priority), but may result
@@ -192,6 +215,9 @@ usenormalthreadpriority: true
 
 # Save and restore pending tile renders - prevents their loss on server shutdown or /reload
 saverestorepending: true
+
+# Save period for pending jobs (in seconds): periodic saving for crash recovery of jobs
+save-pending-period: 900
 
 # Zoom-out tile update period - how often to scan for and process tile updates into zoom-out tiles (in seconds)
 zoomoutperiod: 30
@@ -208,14 +234,25 @@ tileupdatedelay: 30
 enabletilehash: true
 
 # Optional - hide ores: render as normal stone (so that they aren't revealed by maps)
-hideores: true
+#hideores: true
 
 # Optional - enabled BetterGrass style rendering of grass and snow block sides
-better-grass: true
+#better-grass: true
 
 # Optional - enable smooth lighting by default on all maps supporting it (can be set per map as lighting option)
-smooth-lighting: false
+smooth-lighting: true
 
+# Optional - use world provider lighting table (good for custom worlds with custom lighting curves, like nether)
+#   false=classic Dynmap lighting curve
+use-brightness-table: true
+
+# Optional - render specific block IDs using the texures and models of another block ID: can be used to hide/disguise specific
+#  blocks (e.g. make ores look like stone, hide chests) or to provide simple support for rendering unsupported custom blocks
+block-id-alias:
+#    "14": 1
+#    "15": 1
+#    "16": 1
+  
 # Default image format for HDMaps (png, jpg, jpg-q75, jpg-q80, jpg-q85, jpg-q90, jpg-q95, jpg-q100)
 # Has no effect on maps with explicit format settings
 image-format: png
@@ -223,7 +260,7 @@ image-format: png
 #  use-generated-textures: if true, use generated textures (same as client); false is static water/lava textures
 #  correct-water-lighting: if true, use corrected water lighting (same as client); false is legacy water (darker)
 #  transparent-leaves: if true, leaves are transparent (lighting-wise): false is needed for some Spout versions that break lighting on leaf blocks
-use-generated-textures: false
+use-generated-textures: true
 correct-water-lighting: true
 transparent-leaves: true
 
@@ -233,13 +270,13 @@ ctm-support: true
 custom-colors-support: true
 
 # Control loading of player faces (if set to false, skins are never fetched)
-fetchskins: true
+#fetchskins: false
 
 # Control updating of player faces, once loaded (if faces are being managed by other apps or manually)
 #refreshskins: false
 
 # Customize URL used for fetching player skins (%player% is macro for name)
-skin-url: "http://s3.amazonaws.com/MinecraftSkins/%player%.png"
+skin-url: "http://skins.minecraft.net/MinecraftSkins/%player%.png"
 
 # Control behavior for new (1.0+) compass orientation (sunrise moved 90 degrees: east is now what used to be south)
 #   default is 'newrose' (preserve pre-1.0 maps, rotate rose)
@@ -251,22 +288,22 @@ render-triggers:
   #- playerjoin
   - blockplaced
   - blockbreak
-  #- leavesdecay
-  #- blockburn
+  - leavesdecay
+  - blockburn
   - chunkgenerated
   - blockformed
-  #- blockfaded
-  #- blockspread
-  #- pistonmoved
+  - blockfaded
+  - blockspread
+  - pistonmoved
   - explosion
   #- blockfromto
   #- blockphysics
   - structuregrow
-  #- blockgrow
+  - blockgrow
   #- blockredstone
 
 # Title for the web page - if not specified, defaults to the server's name (unless it is the default of 'Unknown Server')
-webpage-title: "uDH minecraft"
+#webpage-title: "My Awesome Server Map"
 
 # The path where the tile-files are placed.
 tilespath: web/tiles
@@ -274,8 +311,12 @@ tilespath: web/tiles
 # The path where the web-files are located.
 webpath: web
 
+# The path were the /dynmapexp command exports OBJ ZIP files
+exportpath: export
+
 # The network-interface the webserver will bind to (0.0.0.0 for all interfaces, 127.0.0.1 for only local access).
-webserver-bindaddress: 0.0.0.0
+# If not set, uses same setting as server in server.properties (or 0.0.0.0 if not specified)
+#webserver-bindaddress: 0.0.0.0
 
 # The TCP-port the webserver will listen on.
 webserver-port: 8123
@@ -336,7 +377,6 @@ player-sort-permission-nodes:
   
 # Set sidebaropened: 'true' to pin menu sidebar opened permanently, 'pinned' to default the sidebar to pinned, but allow it to unpin
 #sidebaropened: true
-sidebaropened: pinned
 
 # Customized HTTP response headers - add 'id: value' pairs to all HTTP response headers (internal web server only)
 #http-response-headers:
@@ -376,14 +416,17 @@ persist-ids-by-ip: true
 # If true, map text to cyrillic
 cyrillic-support: false
 
+# If true, coordinates will be rounded
+round-coordinates: true
+
 # Messages to customize
 msg:
     maptypes: "Map Types"
     players: "Players"
     chatrequireslogin: "Chat Requires Login"
     chatnotallowed: "You are not permitted to send chat messages"
-    hiddennamejoin: "A hidden player joined"
-    hiddennamequit: "A hidden player quit"
+    hiddennamejoin: "Player joined"
+    hiddennamequit: "Player quit"
 
 # URL for client configuration (only need to be tailored for proxies or other non-standard configurations)
 url:
@@ -431,3 +474,5 @@ verbose: false
 # Enables debugging.
 #debuggers:
 #  - class: org.dynmap.debug.LogDebugger
+# Debug: dump blocks missing render data
+dump-missing-blocks: false
