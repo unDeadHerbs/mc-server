@@ -2,3 +2,4 @@ dynmap/ids-by-ip.txt
 dynmap/web/
 dynmap/web/*
 dynmap/web/**/*
+dynmap/*.pending
