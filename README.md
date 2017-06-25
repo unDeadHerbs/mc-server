@@ -14,7 +14,7 @@ Management
   - [ ] Multiverse-NetherPortals
   - [ ] Multiverse-Portals
 - [ ] PermissionsBukkit
-- [ ] PerWorldInventory
+- [ ] [PerWorldInventory](https://www.spigotmc.org/resources/per-world-inventory.4482/)
 
 World Generators
 ----------------
@@ -23,5 +23,5 @@ World Generators
 
 User Features
 -------------
-- [ ] [dynmap](https://www.spigotmc.org/resources/dynmap.274/)
+- [X] [dynmap](https://www.spigotmc.org/resources/dynmap.274/)
 - [ ] HomeSpawnPlus
