@@ -1,8 +1,8 @@
 usercache.json
 whitelist.json
-BuildDat/
-BuildDat/*
-BuildDat/**/*
+BuildData/
+BuildData/*
+BuildData/**/*
 Bukkit/
 Bukkit/*
 Bukkit/**/*
@@ -12,3 +12,7 @@ CraftBukkit/**/*
 Spigot/
 Spigot/*
 Spigot/**/*
+work/
+work/*
+work/**/*
+*.log.txt
