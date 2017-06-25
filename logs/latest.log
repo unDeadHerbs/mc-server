@@ -1,0 +1,852 @@
+[21:49:58] [Server thread/INFO]: Starting minecraft server version 1.11
+[21:49:59] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[21:49:59] [Server thread/INFO]: Loading properties
+[21:49:59] [Server thread/INFO]: Default game type: SURVIVAL
+[21:49:59] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-6f7aabf-c8ff651 (MC: 1.11) (Implementing API version 1.11-R0.1-SNAPSHOT)
+[21:49:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:49:59] [Server thread/INFO]: Using 3 threads for Netty based IO
+[21:49:59] [Server thread/INFO]: Debug logging is disabled
+[21:50:00] [Server thread/INFO]: Generating keypair
+[21:50:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:50:00] [Server thread/INFO]: Using epoll channel type
+[21:50:01] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[21:50:02] [Server thread/ERROR]: ebean.properties not found
+[21:50:02] [Server thread/INFO]: DataSourcePool [HomeSpawnPlus] autoCommit[false] transIsolation[SERIALIZABLE] min[2] max[20]
+[21:50:02] [Server thread/INFO]: SubClassFactory parent ClassLoader [org.bukkit.plugin.java.PluginClassLoader]
+[21:50:03] [Server thread/INFO]: Entities enhanced[0] subclassed[7]
+[21:50:03] [Server thread/INFO]: [Planetoids] Loading Planetoids v1.4.2
+[21:50:03] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b691
+[21:50:03] [Server thread/INFO]: [PerWorldInventory] Loading PerWorldInventory v1.7.8
+[21:50:03] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v2.5-b713
+[21:50:03] [Server thread/INFO]: [PermissionsBukkit] Loading PermissionsBukkit v2.3
+[21:50:03] [Server thread/INFO]: [Multiverse-NetherPortals] Loading Multiverse-NetherPortals v2.5-b675
+[21:50:03] [Server thread/INFO]: [dynmap] Loading dynmap v2.3-1142
+[21:50:03] [Server thread/INFO]: [dynmap] version=git-Spigot-6f7aabf-c8ff651 (MC: 1.11)
+[21:50:03] [Server thread/INFO]: [dynmap] Mod Support API available
+[21:50:03] [Server thread/INFO]: [DungeonMaze] Loading DungeonMaze v0.1.10
+[21:50:03] [Server thread/INFO]: [HomeSpawnPlus] Loading HomeSpawnPlus v2.0-b610
+[21:50:03] [Server thread/INFO]: [Planetoids] Enabling Planetoids v1.4.2
+[21:50:03] [Server thread/INFO]: Planetoids version 1.4.2 is enabled!
+[21:50:03] [Server thread/INFO]: [DungeonMaze] Enabling DungeonMaze v0.1.10
+[21:50:03] [Server thread/INFO]: [DungeonMaze] Hooked into PermissionsBukkit!
+[21:50:03] [Server thread/INFO]: [DungeonMaze] Hooked into Multiverse
+[21:50:03] [Server thread/INFO]: [DungeonMaze] Dungeon Maze API started!
+[21:50:03] [Server thread/INFO]: [DungeonMaze] Dungeon Maze API enabled!
+[21:50:03] [Server thread/INFO]: [DungeonMaze] Dungeon Maze v0.1.10 Started
+[21:50:03] [Server thread/INFO]: [DungeonMaze] Dungeon Maze made by Tim Visee - timvisee.com
+[21:50:03] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[21:50:03] [Server thread/INFO]: Preparing level "world"
+[21:50:03] [Server thread/INFO]: -------- World Settings For [world] --------
+[21:50:03] [Server thread/INFO]: Mob Spawn Range: 4
+[21:50:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:50:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:50:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:50:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:50:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:50:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:50:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:50:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:50:03] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:50:03] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:50:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:50:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:50:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:50:03] [Server thread/INFO]: Random Lighting Updates: false
+[21:50:03] [Server thread/INFO]: Structure Info Saving: true
+[21:50:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:50:03] [Server thread/INFO]: Max TNT Explosions: 100
+[21:50:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:50:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:50:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:50:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:50:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:50:03] [Server thread/INFO]: View Distance: 10
+[21:50:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:50:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:50:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:50:04] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[21:50:04] [Server thread/INFO]: Mob Spawn Range: 4
+[21:50:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:50:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:50:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:50:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:50:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:50:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:50:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:50:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:50:04] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:50:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:50:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:50:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:50:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:50:04] [Server thread/INFO]: Random Lighting Updates: false
+[21:50:04] [Server thread/INFO]: Structure Info Saving: true
+[21:50:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:50:04] [Server thread/INFO]: Max TNT Explosions: 100
+[21:50:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:50:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:50:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:50:04] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:50:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:50:04] [Server thread/INFO]: View Distance: 10
+[21:50:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:50:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:50:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:50:05] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[21:50:05] [Server thread/INFO]: Mob Spawn Range: 4
+[21:50:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:50:05] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:50:05] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:50:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:50:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:50:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:50:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:50:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:50:05] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:50:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:50:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:50:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:50:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:50:05] [Server thread/INFO]: Random Lighting Updates: false
+[21:50:05] [Server thread/INFO]: Structure Info Saving: true
+[21:50:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:50:05] [Server thread/INFO]: Max TNT Explosions: 100
+[21:50:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:50:05] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:50:05] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:50:05] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:50:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:50:05] [Server thread/INFO]: View Distance: 10
+[21:50:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:50:05] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:50:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:50:06] [Thread-10/WARN]: [DungeonMaze] The author of this plugin has misconfigured their Auto Update system
+[21:50:06] [Thread-10/WARN]: [DungeonMaze] File versions should follow the format 'PluginName vVERSION'
+[21:50:06] [Thread-10/WARN]: [DungeonMaze] Please notify the author of this error.
+[21:50:06] [Server thread/INFO]: Preparing start region for level 0 (Seed: 5150404197762154129)
+[21:50:07] [Server thread/INFO]: Preparing spawn area: 0%
+[21:50:08] [Server thread/INFO]: Preparing spawn area: 21%
+[21:50:09] [Server thread/INFO]: Preparing spawn area: 41%
+[21:50:10] [Server thread/INFO]: Preparing spawn area: 92%
+[21:50:10] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4959430044227750739)
+[21:50:11] [Server thread/INFO]: Preparing spawn area: 56%
+[21:50:12] [Server thread/INFO]: Preparing start region for level 2 (Seed: -4959430044227750739)
+[21:50:13] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b691
+[21:50:13] [Server thread/INFO]: [Multiverse-Core] [AllPay] - Version 13.0 - using only an item based economy for Multiverse-Core v2.5-b691
+[21:50:15] [Server thread/INFO]: -------- World Settings For [KingdomCome_the_end] --------
+[21:50:15] [Server thread/INFO]: Mob Spawn Range: 4
+[21:50:15] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:50:15] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:50:15] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:50:15] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:50:15] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:50:15] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:50:15] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:50:15] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:50:15] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:50:15] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:50:15] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:50:15] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:50:15] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:50:15] [Server thread/INFO]: Random Lighting Updates: false
+[21:50:15] [Server thread/INFO]: Structure Info Saving: true
+[21:50:15] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:50:15] [Server thread/INFO]: Max TNT Explosions: 100
+[21:50:15] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:50:15] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:50:15] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:50:15] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:50:15] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:50:15] [Server thread/INFO]: View Distance: 10
+[21:50:15] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:50:15] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:50:15] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:50:16] [Server thread/INFO]: Preparing start region for level 3 (Seed: 1980257131725734098)
+[21:50:16] [Server thread/INFO]: -------- World Settings For [lmhard] --------
+[21:50:16] [Server thread/INFO]: Mob Spawn Range: 4
+[21:50:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:50:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:50:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:50:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:50:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:50:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:50:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:50:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:50:16] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:50:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:50:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:50:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:50:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:50:16] [Server thread/INFO]: Random Lighting Updates: false
+[21:50:16] [Server thread/INFO]: Structure Info Saving: true
+[21:50:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:50:16] [Server thread/INFO]: Max TNT Explosions: 100
+[21:50:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:50:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:50:16] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:50:16] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:50:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:50:16] [Server thread/INFO]: View Distance: 10
+[21:50:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:50:16] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:50:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:50:16] [Server thread/INFO]: Preparing start region for level 4 (Seed: -8293699422847993341)
+[21:50:17] [Server thread/INFO]: Preparing spawn area for lmhard, 12%
+[21:50:18] [Server thread/INFO]: Preparing spawn area for lmhard, 44%
+[21:50:19] [Server thread/INFO]: Preparing spawn area for lmhard, 97%
+[21:50:20] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: aeterna
+[21:50:20] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[21:50:20] [Server thread/INFO]: -------- World Settings For [Island] --------
+[21:50:20] [Server thread/INFO]: Mob Spawn Range: 4
+[21:50:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:50:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:50:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:50:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:50:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:50:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:50:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:50:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:50:20] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:50:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:50:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:50:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:50:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:50:20] [Server thread/INFO]: Random Lighting Updates: false
+[21:50:20] [Server thread/INFO]: Structure Info Saving: true
+[21:50:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:50:20] [Server thread/INFO]: Max TNT Explosions: 100
+[21:50:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:50:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:50:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:50:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:50:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:50:20] [Server thread/INFO]: View Distance: 10
+[21:50:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:50:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:50:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:50:20] [Server thread/INFO]: Preparing start region for level 5 (Seed: 3346212639684359198)
+[21:50:20] [Server thread/INFO]: -------- World Settings For [lmeasy] --------
+[21:50:20] [Server thread/INFO]: Mob Spawn Range: 4
+[21:50:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:50:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:50:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:50:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:50:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:50:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:50:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:50:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:50:20] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:50:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:50:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:50:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:50:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:50:20] [Server thread/INFO]: Random Lighting Updates: false
+[21:50:20] [Server thread/INFO]: Structure Info Saving: true
+[21:50:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:50:20] [Server thread/INFO]: Max TNT Explosions: 100
+[21:50:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:50:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:50:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:50:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:50:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:50:20] [Server thread/INFO]: View Distance: 10
+[21:50:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:50:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:50:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:50:20] [Server thread/INFO]: Preparing start region for level 6 (Seed: 2104690042143833472)
+[21:50:21] [Server thread/INFO]: Preparing spawn area for lmeasy, 0%
+[21:50:22] [Server thread/INFO]: Preparing spawn area for lmeasy, 3%
+[21:50:24] [Server thread/INFO]: Preparing spawn area for lmeasy, 8%
+[21:50:25] [Server thread/INFO]: Preparing spawn area for lmeasy, 57%
+[21:50:26] [Server thread/INFO]: Preparing spawn area for lmeasy, 97%
+[21:50:26] [Server thread/INFO]: -------- World Settings For [LPL] --------
+[21:50:26] [Server thread/INFO]: Mob Spawn Range: 4
+[21:50:26] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:50:26] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:50:26] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:50:26] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:50:26] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:50:26] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:50:26] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:50:26] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:50:26] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:50:26] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:50:26] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:50:26] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:50:26] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:50:26] [Server thread/INFO]: Random Lighting Updates: false
+[21:50:26] [Server thread/INFO]: Structure Info Saving: true
+[21:50:26] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:50:26] [Server thread/INFO]: Max TNT Explosions: 100
+[21:50:26] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:50:26] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:50:26] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:50:26] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:50:26] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:50:26] [Server thread/INFO]: View Distance: 10
+[21:50:26] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:50:26] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:50:26] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:50:26] [Server thread/INFO]: Preparing start region for level 7 (Seed: 7156527301239280553)
+[21:50:27] [Server thread/INFO]: Preparing spawn area for LPL, 61%
+[21:50:27] [Server thread/INFO]: -------- World Settings For [KittyCatTerritory] --------
+[21:50:27] [Server thread/INFO]: Mob Spawn Range: 4
+[21:50:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:50:27] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:50:27] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:50:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:50:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:50:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:50:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:50:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:50:27] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:50:27] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:50:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:50:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:50:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:50:27] [Server thread/INFO]: Random Lighting Updates: false
+[21:50:27] [Server thread/INFO]: Structure Info Saving: true
+[21:50:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:50:27] [Server thread/INFO]: Max TNT Explosions: 100
+[21:50:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:50:27] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:50:27] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:50:27] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:50:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:50:27] [Server thread/INFO]: View Distance: 10
+[21:50:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:50:27] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:50:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:50:28] [Server thread/INFO]: Preparing start region for level 8 (Seed: -4992559890773580287)
+[21:50:29] [Server thread/INFO]: Preparing spawn area for KittyCatTerritory, 12%
+[21:50:30] [Server thread/INFO]: Preparing spawn area for KittyCatTerritory, 56%
+[21:50:30] [Server thread/INFO]: -------- World Settings For [KingdomCome] --------
+[21:50:30] [Server thread/INFO]: Mob Spawn Range: 4
+[21:50:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:50:30] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:50:30] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:50:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:50:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:50:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:50:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:50:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:50:30] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:50:30] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:50:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:50:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:50:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:50:30] [Server thread/INFO]: Random Lighting Updates: false
+[21:50:30] [Server thread/INFO]: Structure Info Saving: true
+[21:50:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:50:30] [Server thread/INFO]: Max TNT Explosions: 100
+[21:50:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:50:30] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:50:30] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:50:30] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:50:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:50:30] [Server thread/INFO]: View Distance: 10
+[21:50:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:50:30] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:50:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:50:30] [Server thread/INFO]: Preparing start region for level 9 (Seed: -7903106005727337028)
+[21:50:31] [Server thread/INFO]: Preparing spawn area for KingdomCome, 44%
+[21:50:32] [Server thread/INFO]: Preparing spawn area for KingdomCome, 69%
+[21:50:33] [Server thread/INFO]: -------- World Settings For [KingdomCome_nether] --------
+[21:50:33] [Server thread/INFO]: Mob Spawn Range: 4
+[21:50:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:50:33] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:50:33] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:50:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:50:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:50:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:50:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:50:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:50:33] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:50:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:50:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:50:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:50:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:50:33] [Server thread/INFO]: Random Lighting Updates: false
+[21:50:33] [Server thread/INFO]: Structure Info Saving: true
+[21:50:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:50:33] [Server thread/INFO]: Max TNT Explosions: 100
+[21:50:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:50:33] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:50:33] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:50:33] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:50:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:50:33] [Server thread/INFO]: View Distance: 10
+[21:50:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:50:33] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:50:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:50:33] [Server thread/INFO]: Preparing start region for level 10 (Seed: -6691990293112359535)
+[21:50:34] [Server thread/INFO]: Preparing spawn area for KingdomCome_nether, 69%
+[21:50:34] [Server thread/INFO]: -------- World Settings For [LPL_nether] --------
+[21:50:34] [Server thread/INFO]: Mob Spawn Range: 4
+[21:50:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:50:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:50:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:50:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:50:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:50:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:50:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:50:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:50:35] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:50:35] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:50:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:50:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:50:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:50:35] [Server thread/INFO]: Random Lighting Updates: false
+[21:50:35] [Server thread/INFO]: Structure Info Saving: true
+[21:50:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:50:35] [Server thread/INFO]: Max TNT Explosions: 100
+[21:50:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:50:35] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:50:35] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:50:35] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:50:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:50:35] [Server thread/INFO]: View Distance: 10
+[21:50:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:50:35] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:50:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:50:35] [Server thread/INFO]: Preparing start region for level 11 (Seed: -7884919523177417692)
+[21:50:36] [Server thread/INFO]: Preparing spawn area for LPL_nether, 69%
+[21:50:36] [Server thread/INFO]: -------- World Settings For [lmhard_nether] --------
+[21:50:37] [Server thread/INFO]: Mob Spawn Range: 4
+[21:50:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:50:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:50:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:50:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:50:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:50:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:50:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:50:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:50:37] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:50:37] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:50:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:50:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:50:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:50:37] [Server thread/INFO]: Random Lighting Updates: false
+[21:50:37] [Server thread/INFO]: Structure Info Saving: true
+[21:50:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:50:37] [Server thread/INFO]: Max TNT Explosions: 100
+[21:50:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:50:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:50:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:50:37] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:50:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:50:37] [Server thread/INFO]: View Distance: 10
+[21:50:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:50:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:50:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:50:37] [Server thread/INFO]: Preparing start region for level 12 (Seed: 3770671115612990317)
+[21:50:38] [Server thread/INFO]: Preparing spawn area for lmhard_nether, 81%
+[21:50:40] [Server thread/INFO]: -------- World Settings For [PLchunk] --------
+[21:50:40] [Server thread/INFO]: Mob Spawn Range: 4
+[21:50:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:50:40] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:50:40] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:50:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:50:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:50:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:50:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:50:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:50:40] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:50:40] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:50:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:50:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:50:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:50:40] [Server thread/INFO]: Random Lighting Updates: false
+[21:50:40] [Server thread/INFO]: Structure Info Saving: true
+[21:50:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:50:40] [Server thread/INFO]: Max TNT Explosions: 100
+[21:50:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:50:40] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:50:40] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:50:40] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:50:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:50:40] [Server thread/INFO]: View Distance: 10
+[21:50:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:50:40] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:50:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:50:40] [Server thread/INFO]: Preparing start region for level 13 (Seed: -8013841464986351329)
+[21:50:41] [Server thread/INFO]: Preparing spawn area for PLchunk, 20%
+[21:50:42] [Server thread/INFO]: Preparing spawn area for PLchunk, 61%
+[21:50:43] [Server thread/INFO]: Preparing spawn area for PLchunk, 77%
+[21:50:43] [Server thread/INFO]: [Multiverse-Core] 12 - World(s) loaded.
+[21:50:44] [Server thread/INFO]: [Multiverse-Core] Loading anchor:  'widget'...
+[21:50:44] [Server thread/INFO]: [Multiverse-Core] Loading anchor:  'widgethut'...
+[21:50:44] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b691 (API v18) Enabled - By Rigby, fernferret, lithium3141 and main--
+[21:50:44] [Server thread/INFO]: [PerWorldInventory] Enabling PerWorldInventory v1.7.8
+[21:50:44] [Server thread/INFO]: [PerWorldInventory] Registering commands...
+[21:50:44] [Server thread/INFO]: [PerWorldInventory] Commands registered! Registering listeners...
+[21:50:44] [Server thread/INFO]: [PerWorldInventory] Registered PlayerGameModeChangeListener.
+[21:50:44] [Server thread/INFO]: [PerWorldInventory] Listeners enabled!
+[21:50:44] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v2.5-b713
+[21:50:44] [Server thread/INFO]: [Multiverse-Portals] - Version 2.5-b713 Enabled - By Rigby and fernferret
+[21:50:44] [Server thread/ERROR]: Error occurred while enabling Multiverse-Portals v2.5-b713 (Is it up to date?)
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.onarandombox.MultiversePortals.MVPortal.addToUpperLists(MVPortal.java:174) ~[?:?]
+	at com.onarandombox.MultiversePortals.MVPortal.init(MVPortal.java:101) ~[?:?]
+	at com.onarandombox.MultiversePortals.MVPortal.<init>(MVPortal.java:67) ~[?:?]
+	at com.onarandombox.MultiversePortals.MVPortal.loadMVPortalFromConfig(MVPortal.java:181) ~[?:?]
+	at com.onarandombox.MultiversePortals.MultiversePortals.loadPortals(MultiversePortals.java:216) ~[?:?]
+	at com.onarandombox.MultiversePortals.MultiversePortals.onEnable(MultiversePortals.java:127) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:271) ~[spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at org.bukkit.craftbukkit.v1_11_R1.CraftServer.enablePlugin(CraftServer.java:375) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at org.bukkit.craftbukkit.v1_11_R1.CraftServer.enablePlugins(CraftServer.java:325) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.t(MinecraftServer.java:419) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.l(MinecraftServer.java:380) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.a(MinecraftServer.java:335) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at net.minecraft.server.v1_11_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.run(MinecraftServer.java:542) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_111]
+[21:50:44] [Server thread/INFO]: [PermissionsBukkit] Enabling PermissionsBukkit v2.3
+[21:50:44] [Server thread/ERROR]: Error occurred while enabling PermissionsBukkit v2.3 (Is it up to date?)
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.platymuus.bukkit.permissions.PermissionsPlugin.onEnable(PermissionsPlugin.java:53) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:271) ~[spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at org.bukkit.craftbukkit.v1_11_R1.CraftServer.enablePlugin(CraftServer.java:375) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at org.bukkit.craftbukkit.v1_11_R1.CraftServer.enablePlugins(CraftServer.java:325) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.t(MinecraftServer.java:419) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.l(MinecraftServer.java:380) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.a(MinecraftServer.java:335) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at net.minecraft.server.v1_11_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.run(MinecraftServer.java:542) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_111]
+[21:50:44] [Server thread/INFO]: PermissionsBukkit plugin enabled, updating hooks!
+[21:50:44] [Server thread/INFO]: [DungeonMaze] Hooked into PermissionsBukkit!
+[21:50:44] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v2.5-b675
+[21:50:44] [Server thread/INFO]: [Multiverse-NetherPortals] - Version 2.5-b675 Enabled - By Rigby and fernferret
+[21:50:45] [Server thread/INFO]: [dynmap] Enabling dynmap v2.3-1142
+[21:50:48] [Server thread/INFO]: [dynmap] Added 1 custom biome mappings
+[21:50:48] [Server thread/INFO]: [dynmap] Using PermissionsBukkit 2.3 for access control
+[21:50:48] [Server thread/INFO]: [dynmap] Web interface permissions only available for online users
+[21:50:48] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[21:50:51] [Server thread/INFO]: [dynmap] Loaded 23 shaders.
+[21:50:51] [Server thread/INFO]: [dynmap] Loaded 82 perspectives.
+[21:50:51] [Server thread/INFO]: [dynmap] Loaded 14 lightings.
+[21:50:52] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[21:50:52] [Server thread/INFO]: [dynmap] version 2.3-1142 is enabled - core version 2.3-2074
+[21:50:52] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[21:50:52] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[21:50:52] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[21:50:52] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'KingdomCome_the_end'.
+[21:50:52] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'lmhard'.
+[21:50:52] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'Island'.
+[21:50:52] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'lmeasy'.
+[21:50:52] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'LPL'.
+[21:50:52] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'KittyCatTerritory'.
+[21:50:52] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'KingdomCome'.
+[21:50:52] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'KingdomCome_nether'.
+[21:50:52] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'LPL_nether'.
+[21:50:52] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'lmhard_nether'.
+[21:50:53] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'PLchunk'.
+[21:50:53] [Server thread/INFO]: [dynmap] Enabled
+[21:50:53] [Server thread/INFO]: [HomeSpawnPlus] Enabling HomeSpawnPlus v2.0-b610
+[21:50:59] [Server thread/INFO]: [HomeSpawnPlus] Loaded 177 locale strings (0 overrides)
+[21:50:59] [Server thread/INFO]: [HomeSpawnPlus] using SUPERPERMS for permissions
+[21:51:01] [Server thread/INFO]: [HomeSpawnPlus] Vault not found, HSP economy features are disabled
+[21:51:01] [Server thread/INFO]: [HomeSpawnPlus] HomeSpawnPlus version 2.0-b610 is enabled
+[21:51:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:51:01] [Server thread/INFO]: Done (58.263s)! For help, type "help" or "?"
+[21:51:02] [Server thread/INFO]: -------- World Settings For [Planetoids] --------
+[21:51:02] [Server thread/INFO]: Mob Spawn Range: 4
+[21:51:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:51:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:51:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:51:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:51:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:51:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:51:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:51:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:51:02] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:51:02] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:51:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:51:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:51:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:51:02] [Server thread/INFO]: Random Lighting Updates: false
+[21:51:02] [Server thread/INFO]: Structure Info Saving: true
+[21:51:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:51:02] [Server thread/INFO]: Max TNT Explosions: 100
+[21:51:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:51:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:51:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:51:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:51:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:51:02] [Server thread/INFO]: View Distance: 10
+[21:51:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:51:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:51:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:51:02] [Server thread/INFO]: Preparing start region for level 14 (Seed: 4512426276534965846)
+[21:51:05] [Server thread/INFO]: Preparing spawn area for Planetoids, 0%
+[21:51:06] [Server thread/INFO]: Preparing spawn area for Planetoids, 52%
+[21:51:08] [Server thread/INFO]: Preparing spawn area for Planetoids, 81%
+[21:51:08] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'Planetoids'.
+[21:51:08] [Craft Scheduler Thread - 0/WARN]: [DungeonMaze] Plugin DungeonMaze v0.1.10 generated an exception while executing task 3
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.timvisee.dungeonmaze.Metrics.postPlugin(Metrics.java:368) ~[?:?]
+	at com.timvisee.dungeonmaze.Metrics.access$5(Metrics.java:359) ~[?:?]
+	at com.timvisee.dungeonmaze.Metrics$1.run(Metrics.java:260) ~[?:?]
+	at org.bukkit.craftbukkit.v1_11_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at org.bukkit.craftbukkit.v1_11_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [?:1.7.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [?:1.7.0_111]
+	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_111]
+[21:51:08] [Craft Scheduler Thread - 1/WARN]: [Multiverse-Core] Plugin Multiverse-Core v2.5-b691 generated an exception while executing task 5
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at org.mcstats.multiverse.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at org.mcstats.multiverse.Metrics.access$400(Metrics.java:64) ~[?:?]
+	at org.mcstats.multiverse.Metrics$1.run(Metrics.java:245) ~[?:?]
+	at org.bukkit.craftbukkit.v1_11_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at org.bukkit.craftbukkit.v1_11_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [?:1.7.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [?:1.7.0_111]
+	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_111]
+[21:51:57] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[22:01:25] [Craft Scheduler Thread - 3/WARN]: [HomeSpawnPlus] Plugin HomeSpawnPlus v2.0-b610 generated an exception while executing task 13
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.andune.minecraft.hsp.Metrics.postPlugin(Metrics.java:409) ~[?:?]
+	at com.andune.minecraft.hsp.Metrics.access$400(Metrics.java:81) ~[?:?]
+	at com.andune.minecraft.hsp.Metrics$4.run(Metrics.java:364) ~[?:?]
+	at org.bukkit.craftbukkit.v1_11_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at org.bukkit.craftbukkit.v1_11_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [?:1.7.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [?:1.7.0_111]
+	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_111]
+[22:01:25] [Craft Scheduler Thread - 3/WARN]: [DungeonMaze] Plugin DungeonMaze v0.1.10 generated an exception while executing task 3
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.timvisee.dungeonmaze.Metrics.postPlugin(Metrics.java:368) ~[?:?]
+	at com.timvisee.dungeonmaze.Metrics.access$5(Metrics.java:359) ~[?:?]
+	at com.timvisee.dungeonmaze.Metrics$1.run(Metrics.java:260) ~[?:?]
+	at org.bukkit.craftbukkit.v1_11_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at org.bukkit.craftbukkit.v1_11_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [?:1.7.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [?:1.7.0_111]
+	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_111]
+[22:01:25] [Craft Scheduler Thread - 3/WARN]: [Multiverse-Core] Plugin Multiverse-Core v2.5-b691 generated an exception while executing task 5
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at org.mcstats.multiverse.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at org.mcstats.multiverse.Metrics.access$400(Metrics.java:64) ~[?:?]
+	at org.mcstats.multiverse.Metrics$1.run(Metrics.java:245) ~[?:?]
+	at org.bukkit.craftbukkit.v1_11_R1.scheduler.CraftTask.run(CraftTask.java:71) ~[spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at org.bukkit.craftbukkit.v1_11_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [?:1.7.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [?:1.7.0_111]
+	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_111]
+[22:04:48] [Server thread/INFO]: [0;36;1m====[ Multiverse Help ]====[m
+[22:04:48] [Server thread/INFO]: [0;36;1m Add a '[0;35;22m?[0;36;1m' after a command to see more about it.[m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv [0;33;22m[FILTER] [PAGE #][m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv version [0;33;22m-[pb][m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv list[m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv info[0;33;22m [WORLD] [PAGE][m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv create [0;32;1m{NAME} {ENV} [0;33;22m-s [SEED] -g [GENERATOR[:ID]] -t [WORLDTYPE] [-n] -a [true|false][m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv clone[0;32;1m {TARGET} {NAME}[0;33;22m -g [GENERATOR[:ID]][m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv import[0;32;1m {NAME} {ENV}[0;33;22m -g [GENERATOR[:ID]] [-n][m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv reload[m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv setspawn[m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv coord[m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv tp [0;33;22m[PLAYER][0;32;1m {WORLD}[m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv who[0;33;22m [WORLD|--all][m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv spawn[0;33;22m [PLAYER][m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv unload[0;32;1m {WORLD}[m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv load[0;32;1m {WORLD}[m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv remove[0;32;1m {WORLD}[m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv delete[0;32;1m {WORLD}[m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv regen[0;32;1m {WORLD}[0;33;22m [-s [SEED]][m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv confirm[m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv modify[0;32;1m {set|add|remove|clear} ...[m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv purge[0;33;22m [WORLD|all] [0;32;1m{all|animals|monsters|MOBNAME}[m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv modify [0;32;1madd {VALUE} {PROPERTY}[0;33;22m [WORLD] [m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv modify[0;32;1m set {PROPERTY} {VALUE}[0;33;22m [WORLD][m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv modify[0;32;1m remove {PROPERTY} {VALUE}[0;33;22m [WORLD][m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv modify[0;32;1m clear {PROPERTY}[0;33;22m [WORLD][m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv config [0;32;1m{PROPERTY} {VALUE}[m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv anchor [0;32;1m{name}[0;33;22m [-d][m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv env[m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv debug[0;33;22m [1|2|3|off|silent][m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv silent[0;33;22m [true|false|on|off][m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv generators[m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv check [0;32;1m{PLAYER} {DESTINATION}[m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv script[0;33;22m {script} [target][m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv gamerule [0;32;1m{RULE} {VALUE}[0;33;22m [WORLD][m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mv gamerules[0;33;22m [WORLD][m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mvp info [0;32;1m{PORTAL}[m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mvp list [0;33;22m[FILTER] [WORLD][m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mvp create[0;32;1m {NAME}[0;33;22m [DESTINATION][m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mvp debug[0;33;22m [on|off][m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mvp remove[0;32;1m {NAME}[m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mvp modify[0;32;1m {PROPERTY}[0;33;22m [VALUE] -p [PORTAL][m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mvp select [0;32;1m{PORTAL}[m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mvp wand[m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mvp config [0;32;1m{PROPERTY} {VALUE}[m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mvnp link [0;32;1m{end|nether} [0;33;22m[FROM_WORLD] [0;32;1m {TO_WORLD}[m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mvnp unlink [0;32;1m{nether|end}[0;33;22m[FROM_WORLD][m
+[22:04:48] [Server thread/INFO]: [0;36;1m/mvnp show [0;33;22m[type] [PAGE #][m
+[22:04:50] [Server thread/INFO]: [0;35;1m====[ Multiverse World List ]====[m
+[22:04:50] [Server thread/INFO]: [0;37;1mlmhard[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[22:04:50] [Server thread/INFO]: [0;37;1mKingdomCome_the_end[0;37;1m[0;37;1m - [0;36;1mTHE_END[m
+[22:04:50] [Server thread/INFO]: [0;37;1mPLchunk[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[22:04:50] [Server thread/INFO]: [0;37;1mIsland[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[22:04:50] [Server thread/INFO]: [0;37;1mlmeasy[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[22:04:50] [Server thread/INFO]: [0;37;1mKittyCatTerritory[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[22:04:50] [Server thread/INFO]: [0;37;1mKingdomCome[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[22:04:50] [Server thread/INFO]: [0;37;1mworld[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[22:04:50] [Server thread/INFO]: [0;37;1mKingdomCome_nether[0;37;1m[0;37;1m - [0;31;1mNETHER[m
+[22:04:50] [Server thread/INFO]: [0;37;1mLPL_nether[0;37;1m[0;37;1m - [0;31;1mNETHER[m
+[22:04:50] [Server thread/INFO]: [0;37;1mLPL[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[22:04:50] [Server thread/INFO]: [0;37;1mlmhard_nether[0;37;1m[0;37;1m - [0;31;1mNETHER[m
+[22:04:50] [Server thread/INFO]: [0;37;22mHellBlock - UNLOADED[m
+[22:04:50] [Server thread/INFO]: [0;37;22mfirst_example_world - UNLOADED[m
+[22:04:50] [Server thread/INFO]: [0;37;22maeterna - UNLOADED[m
+[22:04:50] [Server thread/INFO]: [0;37;22mcats - UNLOADED[m
+[22:04:50] [Server thread/INFO]: [0;37;22mSkyBlock_nether - UNLOADED[m
+[22:04:50] [Server thread/INFO]: [0;37;22mSkyBlockMyaso - UNLOADED[m
+[22:04:50] [Server thread/INFO]: [0;37;22mDeities_the_end - UNLOADED[m
+[22:04:50] [Server thread/INFO]: [0;37;22mworld_the_end - UNLOADED[m
+[22:04:50] [Server thread/INFO]: [0;37;22mworld_nether - UNLOADED[m
+[22:04:50] [Server thread/INFO]: [0;37;22mredstone - UNLOADED[m
+[22:04:50] [Server thread/INFO]: [0;37;22mDeities_nether - UNLOADED[m
+[22:04:50] [Server thread/INFO]: [0;37;22mSkyBlock - UNLOADED[m
+[22:04:50] [Server thread/INFO]: [0;37;22mIsland_the_end - UNLOADED[m
+[22:04:50] [Server thread/INFO]: [0;37;22mSkyBlockKevin2 - UNLOADED[m
+[22:04:50] [Server thread/INFO]: [0;37;22mIsland_nether - UNLOADED[m
+[22:05:03] [Server thread/INFO]: The command [0;31;1mmvdelete[0;37;1m has been halted due to the fact that it could break something![m
+[22:05:03] [Server thread/INFO]: If you still wish to execute [0;31;1mmvdelete[0;37;1m[m
+[22:05:03] [Server thread/INFO]: please type: [0;32;1m/mvconfirm[m
+[22:05:03] [Server thread/INFO]: [0;32;1m/mvconfirm[0;37;1m will only be available for 10 seconds.[m
+[22:05:07] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[22:05:12] [Server thread/INFO]: [Multiverse-Core] World 'lmeasy' was unloaded from memory.
+[22:05:12] [Server thread/INFO]: [Multiverse-Core] World 'lmeasy' was unloaded from memory.
+[22:05:12] [Server thread/INFO]: [Multiverse-Core] World 'lmeasy' was removed from config.yml
+[22:05:12] [Server thread/INFO]: [Multiverse-Core] World 'lmeasy' was DELETED.
+[22:05:12] [Server thread/INFO]: [0;32;1mWorld Deleted![m
+[22:05:24] [Server thread/INFO]: The command [0;31;1mmvdelete[0;37;1m has been halted due to the fact that it could break something![m
+[22:05:24] [Server thread/INFO]: If you still wish to execute [0;31;1mmvdelete[0;37;1m[m
+[22:05:24] [Server thread/INFO]: please type: [0;32;1m/mvconfirm[m
+[22:05:24] [Server thread/INFO]: [0;32;1m/mvconfirm[0;37;1m will only be available for 10 seconds.[m
+[22:05:26] [Server thread/INFO]: [Multiverse-Core] World 'lmhard' was unloaded from memory.
+[22:05:26] [Server thread/INFO]: [Multiverse-Core] World 'lmhard' was unloaded from memory.
+[22:05:26] [Server thread/INFO]: [Multiverse-Core] World 'lmhard' was removed from config.yml
+[22:05:26] [Server thread/INFO]: [Multiverse-Core] World 'lmhard' was DELETED.
+[22:05:26] [Server thread/INFO]: [0;32;1mWorld Deleted![m
+[22:05:29] [Server thread/INFO]: [0;35;1m====[ Multiverse World List ]====[m
+[22:05:30] [Server thread/INFO]: [0;37;1mKingdomCome_the_end[0;37;1m[0;37;1m - [0;36;1mTHE_END[m
+[22:05:30] [Server thread/INFO]: [0;37;1mPLchunk[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[22:05:30] [Server thread/INFO]: [0;37;1mIsland[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[22:05:30] [Server thread/INFO]: [0;37;1mKittyCatTerritory[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[22:05:30] [Server thread/INFO]: [0;37;1mKingdomCome[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[22:05:30] [Server thread/INFO]: [0;37;1mworld[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[22:05:30] [Server thread/INFO]: [0;37;1mKingdomCome_nether[0;37;1m[0;37;1m - [0;31;1mNETHER[m
+[22:05:30] [Server thread/INFO]: [0;37;1mLPL_nether[0;37;1m[0;37;1m - [0;31;1mNETHER[m
+[22:05:30] [Server thread/INFO]: [0;37;1mLPL[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[22:05:30] [Server thread/INFO]: [0;37;1mlmhard_nether[0;37;1m[0;37;1m - [0;31;1mNETHER[m
+[22:05:30] [Server thread/INFO]: [0;37;22mHellBlock - UNLOADED[m
+[22:05:30] [Server thread/INFO]: [0;37;22mfirst_example_world - UNLOADED[m
+[22:05:30] [Server thread/INFO]: [0;37;22maeterna - UNLOADED[m
+[22:05:30] [Server thread/INFO]: [0;37;22mcats - UNLOADED[m
+[22:05:30] [Server thread/INFO]: [0;37;22mSkyBlock_nether - UNLOADED[m
+[22:05:30] [Server thread/INFO]: [0;37;22mSkyBlockMyaso - UNLOADED[m
+[22:05:30] [Server thread/INFO]: [0;37;22mDeities_the_end - UNLOADED[m
+[22:05:30] [Server thread/INFO]: [0;37;22mworld_the_end - UNLOADED[m
+[22:05:30] [Server thread/INFO]: [0;37;22mworld_nether - UNLOADED[m
+[22:05:30] [Server thread/INFO]: [0;37;22mredstone - UNLOADED[m
+[22:05:30] [Server thread/INFO]: [0;37;22mDeities_nether - UNLOADED[m
+[22:05:30] [Server thread/INFO]: [0;37;22mSkyBlock - UNLOADED[m
+[22:05:30] [Server thread/INFO]: [0;37;22mIsland_the_end - UNLOADED[m
+[22:05:30] [Server thread/INFO]: [0;37;22mSkyBlockKevin2 - UNLOADED[m
+[22:05:30] [Server thread/INFO]: [0;37;22mIsland_nether - UNLOADED[m
+[22:05:50] [Server thread/INFO]: The command [0;31;1mmvdelete[0;37;1m has been halted due to the fact that it could break something![m
+[22:05:50] [Server thread/INFO]: If you still wish to execute [0;31;1mmvdelete[0;37;1m[m
+[22:05:50] [Server thread/INFO]: please type: [0;32;1m/mvconfirm[m
+[22:05:50] [Server thread/INFO]: [0;32;1m/mvconfirm[0;37;1m will only be available for 10 seconds.[m
+[22:05:52] [Server thread/INFO]: [Multiverse-Core] World 'lmhard_nether' was unloaded from memory.
+[22:05:52] [Server thread/INFO]: [Multiverse-Core] World 'lmhard_nether' was unloaded from memory.
+[22:05:52] [Server thread/INFO]: [Multiverse-Core] World 'lmhard_nether' was removed from config.yml
+[22:05:53] [Server thread/INFO]: [Multiverse-Core] World 'lmhard_nether' was DELETED.
+[22:05:53] [Server thread/INFO]: [0;32;1mWorld Deleted![m
+[22:06:59] [Server thread/INFO]: [0;35;1m====[ Multiverse World List ]====[m
+[22:06:59] [Server thread/INFO]: [0;37;1mKingdomCome_the_end[0;37;1m[0;37;1m - [0;36;1mTHE_END[m
+[22:06:59] [Server thread/INFO]: [0;37;1mPLchunk[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[22:06:59] [Server thread/INFO]: [0;37;1mIsland[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[22:06:59] [Server thread/INFO]: [0;37;1mKittyCatTerritory[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[22:06:59] [Server thread/INFO]: [0;37;1mKingdomCome[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[22:06:59] [Server thread/INFO]: [0;37;1mworld[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[22:06:59] [Server thread/INFO]: [0;37;1mKingdomCome_nether[0;37;1m[0;37;1m - [0;31;1mNETHER[m
+[22:06:59] [Server thread/INFO]: [0;37;1mLPL_nether[0;37;1m[0;37;1m - [0;31;1mNETHER[m
+[22:06:59] [Server thread/INFO]: [0;37;1mLPL[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[22:06:59] [Server thread/INFO]: [0;37;22mHellBlock - UNLOADED[m
+[22:06:59] [Server thread/INFO]: [0;37;22mfirst_example_world - UNLOADED[m
+[22:06:59] [Server thread/INFO]: [0;37;22maeterna - UNLOADED[m
+[22:06:59] [Server thread/INFO]: [0;37;22mcats - UNLOADED[m
+[22:06:59] [Server thread/INFO]: [0;37;22mSkyBlock_nether - UNLOADED[m
+[22:06:59] [Server thread/INFO]: [0;37;22mSkyBlockMyaso - UNLOADED[m
+[22:06:59] [Server thread/INFO]: [0;37;22mDeities_the_end - UNLOADED[m
+[22:06:59] [Server thread/INFO]: [0;37;22mworld_the_end - UNLOADED[m
+[22:06:59] [Server thread/INFO]: [0;37;22mworld_nether - UNLOADED[m
+[22:06:59] [Server thread/INFO]: [0;37;22mredstone - UNLOADED[m
+[22:06:59] [Server thread/INFO]: [0;37;22mDeities_nether - UNLOADED[m
+[22:06:59] [Server thread/INFO]: [0;37;22mSkyBlock - UNLOADED[m
+[22:06:59] [Server thread/INFO]: [0;37;22mIsland_the_end - UNLOADED[m
+[22:06:59] [Server thread/INFO]: [0;37;22mSkyBlockKevin2 - UNLOADED[m
+[22:06:59] [Server thread/INFO]: [0;37;22mIsland_nether - UNLOADED[m
+[22:07:08] [Server thread/INFO]: Stopping the server
+[22:07:08] [Server thread/INFO]: Stopping server
+[22:07:08] [Server thread/INFO]: [HomeSpawnPlus] Disabling HomeSpawnPlus v2.0-b610
+[22:07:08] [Server thread/ERROR]: Error occurred while disabling HomeSpawnPlus v2.0-b610 (Is it up to date?)
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.andune.minecraft.hsp.shade.commonlib.server.bukkit.BukkitServer.getOnlinePlayers(BukkitServer.java:268) ~[?:?]
+	at com.andune.minecraft.hsp.util.SpawnUtil.updateAllPlayerLocations(SpawnUtil.java:262) ~[?:?]
+	at com.andune.minecraft.hsp.HomeSpawnPlus.onDisable(HomeSpawnPlus.java:100) ~[?:?]
+	at com.andune.minecraft.hsp.HomeSpawnPlusBukkit.onDisable(HomeSpawnPlusBukkit.java:121) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:273) ~[spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:361) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:424) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:417) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at org.bukkit.craftbukkit.v1_11_R1.CraftServer.disablePlugins(CraftServer.java:344) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.stop(MinecraftServer.java:462) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.run(MinecraftServer.java:610) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_111]
+[22:07:08] [Server thread/INFO]: [DungeonMaze] Disabling DungeonMaze v0.1.10
+[22:07:08] [Server thread/INFO]: [DungeonMaze] No Dungeon Maze worlds to unload avaiable
+[22:07:08] [Server thread/INFO]: [DungeonMaze] Dungeon Maze Disabled
+[22:07:08] [Server thread/INFO]: [dynmap] Disabling dynmap v2.3-1142
+[22:07:08] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[22:07:08] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[22:07:09] [Server thread/INFO]: [dynmap] Disabled
+[22:07:09] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v2.5-b675
+[22:07:09] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
+[22:07:09] [Server thread/INFO]: [PermissionsBukkit] Disabling PermissionsBukkit v2.3
+[22:07:09] [Server thread/ERROR]: Error occurred while disabling PermissionsBukkit v2.3 (Is it up to date?)
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.platymuus.bukkit.permissions.PermissionsPlugin.onDisable(PermissionsPlugin.java:154) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:273) ~[spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:361) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:424) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:417) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at org.bukkit.craftbukkit.v1_11_R1.CraftServer.disablePlugins(CraftServer.java:344) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.stop(MinecraftServer.java:462) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.run(MinecraftServer.java:610) [spigot-1.11.jar:git-Spigot-6f7aabf-c8ff651]
+	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_111]
+[22:07:09] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v2.5-b713
+[22:07:09] [Server thread/INFO]: [PerWorldInventory] Disabling PerWorldInventory v1.7.8
+[22:07:09] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5-b691
+[22:07:10] [Server thread/INFO]: [Planetoids] Disabling Planetoids v1.4.2
+[22:07:10] [Server thread/INFO]: Planetoids unloaded.
+[22:07:10] [Server thread/INFO]: Saving players
+[22:07:10] [Server thread/INFO]: Saving worlds
+[22:07:10] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[22:07:10] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[22:07:10] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[22:07:10] [Server thread/INFO]: Saving chunks for level 'KingdomCome_the_end'/The End
+[22:07:10] [Server thread/INFO]: Saving chunks for level 'Island'/Overworld
+[22:07:10] [Server thread/INFO]: Saving chunks for level 'LPL'/Overworld
+[22:07:10] [Server thread/INFO]: Saving chunks for level 'KittyCatTerritory'/Overworld
+[22:07:10] [Server thread/INFO]: Saving chunks for level 'KingdomCome'/Overworld
+[22:07:10] [Server thread/INFO]: Saving chunks for level 'KingdomCome_nether'/Nether
+[22:07:10] [Server thread/INFO]: Saving chunks for level 'LPL_nether'/Nether
+[22:07:10] [Server thread/INFO]: Saving chunks for level 'PLchunk'/Overworld
