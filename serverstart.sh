@@ -12,7 +12,7 @@ git checkout worlds
 git pull
 git pop
 git add --all
-git commit -m "auto commit on `date \"+%Y-%m-%d\"`" --allow-empty
+git commit -m "auto commit on `date \"+%Y-%m-%d\"`"
 git push
 cd ..
 cd plugins
@@ -21,7 +21,7 @@ git checkout plugins
 git pull
 git pop
 git add --all
-git commit -m "auto commit on `date \"+%Y-%m-%d\"`" --allow-empty
+git commit -m "auto commit on `date \"+%Y-%m-%d\"`"
 git push
 cd ..
 git pop
