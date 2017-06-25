@@ -8,11 +8,11 @@ Active Plugins
 
 Management
 ----------
-- [ ] Multiverse
-  - [ ] Multiverse-Core
-  - [ ] Multiverse-Inventories
-  - [ ] Multiverse-NetherPortals
-  - [ ] Multiverse-Portals
+- [X] Multiverse
+  - [X] [Multiverse-Core](https://ci.onarandombox.com/job/Multiverse-Core/lastStableBuild/)
+  - [X] [Multiverse-Inventories](https://ci.onarandombox.com/job/Multiverse-Inventories/lastStableBuild/)
+  - [X] [Multiverse-NetherPortals](https://ci.onarandombox.com/job/Multiverse-NetherPortals/lastStableBuild/)
+  - [X] [Multiverse-Portals](https://ci.onarandombox.com/job/Multiverse-Portals/lastStableBuild/)
 - [ ] PermissionsBukkit
 - [ ] [PerWorldInventory](https://www.spigotmc.org/resources/per-world-inventory.4482/)
 
