@@ -1,7 +1,7 @@
 #!/bin/sh
 
 git s
-git fetch origin running
+git fetch
 git merge --no-ff origin/next --no-edit
 git submodule sync
 git submodule --init --recursive
