@@ -1,2 +1,14 @@
 usercache.json
 whitelist.json
+BuildDat/
+BuildDat/*
+BuildDat/**/*
+Bukkit/
+Bukkit/*
+Bukkit/**/*
+CraftBukkit/
+CraftBukkit/*
+CraftBukkit/**/*
+Spigot/
+Spigot/*
+Spigot/**/*

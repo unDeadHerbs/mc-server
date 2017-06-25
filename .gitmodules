@@ -4,15 +4,3 @@
 [submodule "plugins"]
 	path = plugins
 	url = git@github.com:unDeadHerbs/mc-server.git
-[submodule "Spigot"]
-	path = Spigot
-	url = https://hub.spigotmc.org/stash/scm/spigot/spigot.git
-[submodule "CraftBukkit"]
-	path = CraftBukkit
-	url = https://hub.spigotmc.org/stash/scm/spigot/craftbukkit.git
-[submodule "Bukkit"]
-	path = Bukkit
-	url = https://hub.spigotmc.org/stash/scm/spigot/bukkit.git
-[submodule "BuildData"]
-	path = BuildData
-	url = https://hub.spigotmc.org/stash/scm/spigot/builddata.git
