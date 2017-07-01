@@ -1,9 +1,14 @@
 #!/bin/sh
 
 git fetch
+git s
+git checkout `git rev-parse --short HEAD`
+git rh
 git b -d running
 git b running
 git checkout running
+git pop
+git commit -m "auto commit on `date \"+%Y-%m-%d\"`"
 git merge --no-ff origin/next --no-edit
 git submodule sync
 git submodule init --recursive
@@ -16,6 +21,7 @@ git s
 cd ..
 git submodule update --recursive
 cd worlds
+git checkout `git rev-parse --short HEAD`
 git b -d worlds
 git b worlds
 git checkout worlds
@@ -25,6 +31,7 @@ git commit -m "auto commit on `date \"+%Y-%m-%d\"`"
 git push -f
 cd ..
 cd plugins
+git checkout `git rev-parse --short HEAD`
 git b -d plugins
 git b plugins
 git checkout plugins
@@ -33,12 +40,12 @@ git add --all
 git commit -m "auto commit on `date \"+%Y-%m-%d\"`"
 git push -f
 cd ..
+git pop
 git add --all
 git commit -m "auto commit on `date \"+%Y-%m-%d\"`"
 git push -f
 git gc
 
 BINDIR=$(dirname "$(readlink -fn "$0")")
- cd "$BINDIR"
- java -XX:MaxPermSize=128M -XX:-UseGCOverheadLimit -jar $(ls |grep spi|grep jar|sort -r|head -n 1) --log-append true #| tee -a server.log
-#-o false
+cd "$BINDIR"
+java -Xmx1024M -jar $(ls |grep spi|grep jar|sort -r|head -n 1) --log-append true
