@@ -1,51 +1,68 @@
 #!/bin/sh
 
-update_server(){
-    git fetch
-    git s
+save_local(){
+    git stash
+    # run update worlds script
+    cd worlds
+    git stash
+    cd ..
+    cd plugins
+    git stash
+    cd ..
+}
+
+git_claim_tag(){
     git checkout `git rev-parse --short HEAD`
-    git rh
-    git b -d running
-    git b running
-    git checkout running
-    git pop
-    git commit -m "auto commit on `date \"+%Y-%m-%d\"`"
+    git b -d "$@"
+    git b "$@"
+    git checkout "$@"
+}
+
+update_to_next(){
+    git fetch
+    git_claim_tag running
     git merge --no-ff origin/next --no-edit
     git submodule sync
     git submodule init --recursive
-    # run update worlds script
-    cd worlds
-    git s
-    cd ..
-    cd plugins
-    git s
-    cd ..
     git submodule update --recursive
-    cd worlds
-    git checkout `git rev-parse --short HEAD`
-    git b -d worlds
-    git b worlds
-    git checkout worlds
+}
+
+apply_local(){
     git pop
     git add --all
     git commit -m "auto commit on `date \"+%Y-%m-%d\"`"
+    cd worlds
+    git_claim_tag worlds
+    git pop
+    git add --all
+    git commit -m "auto commit on `date \"+%Y-%m-%d\"`"
+    cd ..
+    cd plugins
+    git_claim_tag plugins
+    git pop
+    git add --all
+    git commit -m "auto commit on `date \"+%Y-%m-%d\"`"
+    cd ..
+    git add --all
+    git commit -m "auto commit sub-modules on `date \"+%Y-%m-%d\"`"
+}
+
+push_to_hub(){
+    cd worlds
     git push -f
     cd ..
     cd plugins
-    git checkout `git rev-parse --short HEAD`
-    git b -d plugins
-    git b plugins
-    git checkout plugins
-    git pop
-    git add --all
-    git commit -m "auto commit on `date \"+%Y-%m-%d\"`"
     git push -f
     cd ..
-    git pop
-    git add --all
-    git commit -m "auto commit on `date \"+%Y-%m-%d\"`"
+    git fetch
     git push -f
-    git gc
+}
+
+update_server(){
+    save_local
+    update_to_next
+    apply_local
+    push_to_hub
 }
 
 start_server(){
