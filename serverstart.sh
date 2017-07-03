@@ -64,6 +64,7 @@ update_server(){
     update_to_next
     apply_local
     push_to_hub
+    git gc
 }
 
 start_server(){
