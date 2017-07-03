@@ -78,5 +78,7 @@ should_stop(){
     grep logs/latest.log "^[[][-09][0-9]:[0-9][0-9]:[0-9][0-9][]] [[]Server thread/INFO[]]: [[]Server[]] Shutdown$"
 }
 
-update_server
-start_server
+while ! should_stop ; do
+    update_server
+    start_server
+done
