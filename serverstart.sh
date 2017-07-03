@@ -74,5 +74,9 @@ start_server(){
     java -Xmx1024M -jar $(ls |grep spi|grep jar|sort -r|head -n 1) --log-append true
 }
 
+should_stop(){
+    grep logs/latest.log "^[[][-09][0-9]:[0-9][0-9]:[0-9][0-9][]] [[]Server thread/INFO[]]: [[]Server[]] Shutdown$"
+}
+
 update_server
 start_server
