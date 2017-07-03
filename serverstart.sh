@@ -54,6 +54,13 @@ apply_local(){
     git commit -m "auto commit sub-modules on `date \"+%Y-%m-%d\"`"
 }
 
+update_server(){
+    save_local
+    update_to_next
+    apply_local
+    git gc
+}
+
 ##
 #
 ##
@@ -69,12 +76,8 @@ push_to_hub(){
     git push -f
 }
 
-update_server(){
-    save_local
-    update_to_next
-    apply_local
+update_hub(){
     push_to_hub
-    git gc
 }
 
 ##
@@ -96,5 +99,6 @@ should_stop(){
 
 while ! should_stop ; do
     update_server
+    update_hub
     start_server
 done
