@@ -23,7 +23,8 @@ update_to_next(){
     git_claim_tag running
     git merge --no-ff origin/next --no-edit
     git submodule sync
-    git submodule init --recursive
+    git submodule init
+    git submodule foreach --recursive "git submodule init"
     git submodule update --recursive
 }
 
