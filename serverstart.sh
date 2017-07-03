@@ -2,6 +2,10 @@
 
 set -xe
 
+##
+#
+##
+
 save_local(){
     git stash
     # run update worlds script
@@ -50,6 +54,10 @@ apply_local(){
     git commit -m "auto commit sub-modules on `date \"+%Y-%m-%d\"`"
 }
 
+##
+#
+##
+
 push_to_hub(){
     cd worlds
     git push -f
@@ -69,10 +77,18 @@ update_server(){
     git gc
 }
 
+##
+#
+##
+
 start_server(){
     BINDIR=$(dirname "$(readlink -fn "$0")")
     java -Xmx1024M -jar $(ls |grep spi|grep jar|sort -r|head -n 1) --log-append true
 }
+
+##
+#
+##
 
 should_stop(){
     grep logs/latest.log "^[[][-09][0-9]:[0-9][0-9]:[0-9][0-9][]] [[]Server thread/INFO[]]: [[]Server[]] Shutdown$"
