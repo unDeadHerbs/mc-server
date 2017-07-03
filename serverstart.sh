@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -xe
+
 save_local(){
     git stash
     # run update worlds script
