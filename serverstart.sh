@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -xe
+
 save_local(){
     git stash
     # run update worlds script
@@ -23,7 +25,8 @@ update_to_next(){
     git_claim_tag running
     git merge --no-ff origin/next --no-edit
     git submodule sync
-    git submodule init --recursive
+    git submodule init
+    git submodule foreach --recursive "git submodule init"
     git submodule update --recursive
 }
 
@@ -63,13 +66,19 @@ update_server(){
     update_to_next
     apply_local
     push_to_hub
+    git gc
 }
 
 start_server(){
     BINDIR=$(dirname "$(readlink -fn "$0")")
-    cd "$BINDIR"
     java -Xmx1024M -jar $(ls |grep spi|grep jar|sort -r|head -n 1) --log-append true
 }
 
-update_server
-start_server
+should_stop(){
+    grep logs/latest.log "^[[][-09][0-9]:[0-9][0-9]:[0-9][0-9][]] [[]Server thread/INFO[]]: [[]Server[]] Shutdown$"
+}
+
+while ! should_stop ; do
+    update_server
+    start_server
+done
