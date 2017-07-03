@@ -67,7 +67,6 @@ update_server(){
 
 start_server(){
     BINDIR=$(dirname "$(readlink -fn "$0")")
-    cd "$BINDIR"
     java -Xmx1024M -jar $(ls |grep spi|grep jar|sort -r|head -n 1) --log-append true
 }
 
