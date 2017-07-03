@@ -25,7 +25,6 @@ git_claim_tag(){
 }
 
 update_to_next(){
-    git fetch
     git_claim_tag running
     git merge --no-ff origin/next --no-edit
     git submodule sync
@@ -93,12 +92,19 @@ start_server(){
 #
 ##
 
+should_update(){
+    git fetch
+    git diff origin/next HEAD|grep "." >/dev/null
+}
+
 should_stop(){
     grep logs/latest.log "^[[][-09][0-9]:[0-9][0-9]:[0-9][0-9][]] [[]Server thread/INFO[]]: [[]Server[]] Shutdown$"
 }
 
 while ! should_stop ; do
-    update_server
-    update_hub
+    if should_update ; then
+	update_server
+	update_hub
+    fi
     start_server
 done
