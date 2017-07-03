@@ -1,19 +1,16 @@
-[14:40:39] [Server thread/INFO]: There are 0/20 players online:
-[14:40:39] [Server thread/INFO]: 
-[14:40:48] [Server thread/INFO]: Stopping the server
-[14:40:48] [Server thread/INFO]: Stopping server
-[14:40:48] [Server thread/INFO]: [HomeSpawnPlus] Disabling HomeSpawnPlus v2.0-b610
-[14:40:48] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v2.5.1-SNAPSHOT-b720
-[14:40:48] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
-[14:40:48] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v2.5.0-SNAPSHOT-b435
-[14:40:48] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v2.5.1-SNAPSHOT-b756
-[14:40:48] [Server thread/INFO]: [dynmap] Disabling dynmap v2.5-Dev201706100405
-[14:40:49] [Server thread/INFO]: [dynmap] Unloaded 11 components.
-[14:40:49] [Server thread/INFO]: [dynmap] Stopping map renderer...
-[14:40:50] [Server thread/INFO]: [dynmap] Disabled
-[14:40:50] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5.1-SNAPSHOT-b730
-[14:40:50] [Server thread/INFO]: [PermissionsBukkit] Disabling PermissionsBukkit v2.3
-[14:40:50] [Server thread/ERROR]: Error occurred while disabling PermissionsBukkit v2.3 (Is it up to date?)
+[00:16:14] [Server thread/INFO]: Lyvefyre lost connection: Timed out
+[00:16:14] [Server thread/INFO]: Lyvefyre left the game
+[00:56:53] [Server thread/INFO]: [Server] test
+[01:09:28] [Server thread/INFO]: Stopping the server
+[01:09:28] [Server thread/INFO]: Stopping server
+[01:09:28] [Server thread/INFO]: [HomeSpawnPlus] Disabling HomeSpawnPlus v2.0-b610
+[01:09:28] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v2.5.1-SNAPSHOT-b720
+[01:09:28] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
+[01:09:28] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v2.5.0-SNAPSHOT-b435
+[01:09:28] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v2.5.1-SNAPSHOT-b756
+[01:09:28] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5.1-SNAPSHOT-b730
+[01:09:28] [Server thread/INFO]: [PermissionsBukkit] Disabling PermissionsBukkit v2.3
+[01:09:28] [Server thread/ERROR]: Error occurred while disabling PermissionsBukkit v2.3 (Is it up to date?)
 java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
 	at com.platymuus.bukkit.permissions.PermissionsPlugin.onDisable(PermissionsPlugin.java:154) ~[?:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-1.12.jar:git-Spigot-b78586d-2585751]
@@ -24,20 +21,20 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 	at net.minecraft.server.v1_12_R1.MinecraftServer.stop(MinecraftServer.java:464) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:612) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
-[14:40:50] [Server thread/INFO]: [PerWorldInventory] Disabling PerWorldInventory v1.10.0
-[14:40:50] [Server thread/INFO]: Saving players
-[14:40:50] [Server thread/INFO]: Saving worlds
-[14:40:50] [Server thread/INFO]: Saving chunks for level 'world'/overworld
-[14:40:50] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether
-[14:40:50] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end
-[14:40:50] [Server thread/INFO]: Saving chunks for level 'KingdomCome_nether'/the_nether
-[14:40:50] [Server thread/INFO]: Saving chunks for level 'KingdomCome_the_end'/the_end
-[14:40:50] [Server thread/INFO]: Saving chunks for level 'KittyCatTerritory'/overworld
-[14:40:50] [Server thread/INFO]: Saving chunks for level 'LPL'/overworld
-[14:40:50] [Server thread/INFO]: Saving chunks for level 'KingdomCome'/overworld
-[14:40:51] [Server thread/INFO]: Saving chunks for level 'LPL_nether'/the_nether
-[14:40:51] [Server thread/INFO]: Saving chunks for level 'Athalia_end'/the_end
-[14:40:51] [Server thread/INFO]: Saving chunks for level 'Island'/overworld
-[14:40:51] [Server thread/INFO]: Saving chunks for level 'Athalia_nether'/the_nether
-[14:40:51] [Server thread/INFO]: Saving chunks for level 'Athalia'/overworld
-[14:40:51] [Server thread/INFO]: Saving chunks for level 'PLchunk'/overworld
+[01:09:28] [Server thread/INFO]: [PerWorldInventory] Disabling PerWorldInventory v1.10.0
+[01:09:28] [Server thread/INFO]: Saving players
+[01:09:28] [Server thread/INFO]: Saving worlds
+[01:09:28] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[01:09:28] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether
+[01:09:28] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end
+[01:09:29] [Server thread/INFO]: Saving chunks for level 'KingdomCome_nether'/the_nether
+[01:09:29] [Server thread/INFO]: Saving chunks for level 'KingdomCome_the_end'/the_end
+[01:09:29] [Server thread/INFO]: Saving chunks for level 'LPL'/overworld
+[01:09:29] [Server thread/INFO]: Saving chunks for level 'KittyCatTerritory'/overworld
+[01:09:29] [Server thread/INFO]: Saving chunks for level 'KingdomCome'/overworld
+[01:09:29] [Server thread/INFO]: Saving chunks for level 'LPL_nether'/the_nether
+[01:09:29] [Server thread/INFO]: Saving chunks for level 'Athalia_end'/the_end
+[01:09:29] [Server thread/INFO]: Saving chunks for level 'Island'/overworld
+[01:09:29] [Server thread/INFO]: Saving chunks for level 'Athalia_nether'/the_nether
+[01:09:29] [Server thread/INFO]: Saving chunks for level 'Athalia'/overworld
+[01:09:29] [Server thread/INFO]: Saving chunks for level 'PLchunk'/overworld
