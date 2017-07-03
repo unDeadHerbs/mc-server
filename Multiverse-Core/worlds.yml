@@ -770,7 +770,7 @@ worlds:
   Athalia_end:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: Athalia_end
     color: WHITE
     style: NORMAL
     pvp: 'true'
