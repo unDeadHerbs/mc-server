@@ -19,7 +19,7 @@ save_local(){
 
 git_claim_tag(){
     git checkout `git rev-parse --short HEAD`
-    git b -d "$@"
+    git b -D "$@"
     git b "$@"
     git checkout "$@"
 }
