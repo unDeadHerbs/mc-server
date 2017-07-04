@@ -64,7 +64,8 @@ components:
   #  # Optional - make player hidden when they are under cover (#=sky light level,0=underground,15=open to sky)
   #  hideifundercover: 14
   #  # (Optional) if true, players that are crouching/sneaking will be hidden 
-    hideifsneaking: false
+  #  hideifsneaking: false
+    hideifsneaking: true
     # If true, player positions/status is protected (login with ID with dynmap.playermarkers.seeall permission required for info other than self)
     protected-player-info: false
     # If true, hide players with invisibility potion effects active
@@ -304,6 +305,7 @@ render-triggers:
 
 # Title for the web page - if not specified, defaults to the server's name (unless it is the default of 'Unknown Server')
 #webpage-title: "My Awesome Server Map"
+webpage-title: "Server Map Name Here"
 
 # The path where the tile-files are placed.
 tilespath: web/tiles

@@ -6,6 +6,39 @@
 #   Deleting this file will result in a fresh copy being produced by dynmap.jar on the next startup.
 #
 worlds:
+  - name: world:
+    enabled: true
+  - name: Athalia_nether:
+    enabled: false
+  - name: Athalia:
+    enabled: true
+  - name: Athalia_end - T:
+    enabled: false
+  - name: KingdomCome_nether:
+    enabled: false
+  - name: Deities_nether:
+    enabled: false
+  - name: KingdomCome_the_end:
+    enabled: false
+  - name: world_nether:
+    enabled: false
+  - name: KingdomCome:
+    enabled: true
+  - name: Island_the_end:
+    enabled: false
+  - name: Island_nether:
+    enabled: false
+  - name: Island:
+    enabled: true
+  - name: world_the_end:
+    enabled: false
+  - name: Deities_the_end:
+    enabled: false
+  - name: SkyBlockMyaso:
+    enabled: false
+  - name: redstone:
+    enabled: false
+
   # Worlds can be handled by templates, based on world type
   # You can override the properties of the template by specifying them in this section
   #    for example 'Title: "My Awesome World"'
