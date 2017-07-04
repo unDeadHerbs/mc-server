@@ -1,16 +1,610 @@
-[00:16:14] [Server thread/INFO]: Lyvefyre lost connection: Timed out
-[00:16:14] [Server thread/INFO]: Lyvefyre left the game
-[00:56:53] [Server thread/INFO]: [Server] test
-[01:09:28] [Server thread/INFO]: Stopping the server
-[01:09:28] [Server thread/INFO]: Stopping server
-[01:09:28] [Server thread/INFO]: [HomeSpawnPlus] Disabling HomeSpawnPlus v2.0-b610
-[01:09:28] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v2.5.1-SNAPSHOT-b720
-[01:09:28] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
-[01:09:28] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v2.5.0-SNAPSHOT-b435
-[01:09:28] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v2.5.1-SNAPSHOT-b756
-[01:09:28] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5.1-SNAPSHOT-b730
-[01:09:28] [Server thread/INFO]: [PermissionsBukkit] Disabling PermissionsBukkit v2.3
-[01:09:28] [Server thread/ERROR]: Error occurred while disabling PermissionsBukkit v2.3 (Is it up to date?)
+[00:01:01] [Server thread/INFO]: [0;35;1m====[ Multiverse World List ]====[m
+[00:01:01] [Server thread/INFO]: [0;37;1mKingdomCome_nether[0;37;1m[0;37;1m - [0;31;1mNETHER[m
+[00:01:01] [Server thread/INFO]: [0;37;1mKingdomCome_the_end[0;37;1m[0;37;1m - [0;36;1mTHE_END[m
+[00:01:01] [Server thread/INFO]: [0;37;1mHellBlock[0;37;1m[0;37;1m - [0;31;1mNETHER[m
+[00:01:01] [Server thread/INFO]: [0;37;1mIsland[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:01:01] [Server thread/INFO]: [0;37;1mworld[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:01:01] [Server thread/INFO]: [0;37;1mAthalia_nether[0;37;1m[0;37;1m - [0;31;1mNETHER[m
+[00:01:01] [Server thread/INFO]: [0;37;1mKingdomCome[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:01:01] [Server thread/INFO]: [0;37;1mAthalia[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:01:01] [Server thread/INFO]: [0;37;1mPLchunk[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:01:01] [Server thread/INFO]: [0;37;1mLPL_nether[0;37;1m[0;37;1m - [0;31;1mNETHER[m
+[00:01:01] [Server thread/INFO]: [0;37;1mSkyBlockMyaso[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:01:01] [Server thread/INFO]: [0;37;1mAthalia_end[0;37;1m[0;37;1m - [0;36;1mTHE_END[m
+[00:01:01] [Server thread/INFO]: [0;37;1mredstone[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:01:01] [Server thread/INFO]: [0;37;22mDeities_nether - UNLOADED[m
+[00:01:01] [Server thread/INFO]: [0;37;22mworld_nether - UNLOADED[m
+[00:01:01] [Server thread/INFO]: [0;37;22mIsland_the_end - UNLOADED[m
+[00:01:01] [Server thread/INFO]: [0;37;22maeterna - UNLOADED[m
+[00:01:01] [Server thread/INFO]: [0;37;22mIsland_nether - UNLOADED[m
+[00:01:01] [Server thread/INFO]: [0;37;22mworld_the_end - UNLOADED[m
+[00:01:01] [Server thread/INFO]: [0;37;22mDeities_the_end - UNLOADED[m
+[00:02:48] [Server thread/INFO]: [Multiverse-Core] World 'LPL_nether' was unloaded from memory.
+[00:02:48] [Server thread/INFO]: [Multiverse-Core] World 'LPL_nether' was unloaded from memory.
+[00:02:48] [Server thread/INFO]: CONSOLE: Unloaded world 'LPL_nether'![m
+[00:03:01] [Server thread/INFO]: [Multiverse-Core] World 'LPL_nether' was removed from config.yml
+[00:03:01] [Server thread/INFO]: World removed from config![m
+[00:03:36] [Server thread/INFO]: jenkinsboy has made the advancement [Hot Stuff]
+[00:03:39] [Server thread/INFO]: [Multiverse-Core] World 'HellBlock' was unloaded from memory.
+[00:03:39] [Server thread/INFO]: [Multiverse-Core] World 'HellBlock' was unloaded from memory.
+[00:03:39] [Server thread/INFO]: CONSOLE: Unloaded world 'HellBlock'![m
+[00:03:49] [Server thread/INFO]: [Multiverse-Core] World 'HellBlock' was removed from config.yml
+[00:03:49] [Server thread/INFO]: World removed from config![m
+[00:04:58] [Server thread/INFO]: psywiped has made the advancement [Monster Hunter]
+[00:06:01] [Server thread/ERROR]: Couldn't save chunk; already in use by another instance of Minecraft?
+net.minecraft.server.v1_12_R1.ExceptionWorldConflict: Failed to check session lock for world located at ./PLchunk, aborting. Stop the server and delete the session.lock in this world to prevent further issues.
+	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:85) ~[spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2820) ~[spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:120) ~[spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.ChunkProviderServer.saveChunk(ChunkProviderServer.java:209) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.ChunkProviderServer.unloadChunk(ChunkProviderServer.java:316) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.ChunkProviderServer.unloadChunks(ChunkProviderServer.java:268) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.WorldServer.doTick(WorldServer.java:293) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:798) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+[00:06:01] [Server thread/ERROR]: Couldn't save chunk; already in use by another instance of Minecraft?
+net.minecraft.server.v1_12_R1.ExceptionWorldConflict: Failed to check session lock for world located at ./PLchunk, aborting. Stop the server and delete the session.lock in this world to prevent further issues.
+	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:85) ~[spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2820) ~[spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:120) ~[spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.ChunkProviderServer.saveChunk(ChunkProviderServer.java:209) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.ChunkProviderServer.unloadChunk(ChunkProviderServer.java:316) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.ChunkProviderServer.unloadChunks(ChunkProviderServer.java:268) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.WorldServer.doTick(WorldServer.java:293) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:798) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+[00:06:01] [Server thread/ERROR]: Couldn't save chunk; already in use by another instance of Minecraft?
+net.minecraft.server.v1_12_R1.ExceptionWorldConflict: Failed to check session lock for world located at ./PLchunk, aborting. Stop the server and delete the session.lock in this world to prevent further issues.
+	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:85) ~[spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2820) ~[spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:120) ~[spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.ChunkProviderServer.saveChunk(ChunkProviderServer.java:209) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.ChunkProviderServer.unloadChunk(ChunkProviderServer.java:316) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.ChunkProviderServer.unloadChunks(ChunkProviderServer.java:268) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.WorldServer.doTick(WorldServer.java:293) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:798) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+[00:06:01] [Server thread/ERROR]: Couldn't save chunk; already in use by another instance of Minecraft?
+net.minecraft.server.v1_12_R1.ExceptionWorldConflict: Failed to check session lock for world located at ./PLchunk, aborting. Stop the server and delete the session.lock in this world to prevent further issues.
+	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:85) ~[spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2820) ~[spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:120) ~[spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.ChunkProviderServer.saveChunk(ChunkProviderServer.java:209) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.ChunkProviderServer.unloadChunk(ChunkProviderServer.java:316) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.ChunkProviderServer.unloadChunks(ChunkProviderServer.java:268) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.WorldServer.doTick(WorldServer.java:293) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:798) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:405) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+[00:06:49] [Server thread/INFO]: [0;35;1m====[ Multiverse World List ]====[m
+[00:06:49] [Server thread/INFO]: [0;37;1mKingdomCome_nether[0;37;1m[0;37;1m - [0;31;1mNETHER[m
+[00:06:49] [Server thread/INFO]: [0;37;1mKingdomCome_the_end[0;37;1m[0;37;1m - [0;36;1mTHE_END[m
+[00:06:49] [Server thread/INFO]: [0;37;1mIsland[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:06:49] [Server thread/INFO]: [0;37;1mworld[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:06:49] [Server thread/INFO]: [0;37;1mAthalia_nether[0;37;1m[0;37;1m - [0;31;1mNETHER[m
+[00:06:49] [Server thread/INFO]: [0;37;1mKingdomCome[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:06:49] [Server thread/INFO]: [0;37;1mAthalia[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:06:49] [Server thread/INFO]: [0;37;1mPLchunk[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:06:49] [Server thread/INFO]: [0;37;1mSkyBlockMyaso[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:06:49] [Server thread/INFO]: [0;37;1mAthalia_end[0;37;1m[0;37;1m - [0;36;1mTHE_END[m
+[00:06:49] [Server thread/INFO]: [0;37;1mredstone[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:06:49] [Server thread/INFO]: [0;37;22mDeities_nether - UNLOADED[m
+[00:06:49] [Server thread/INFO]: [0;37;22mworld_nether - UNLOADED[m
+[00:06:49] [Server thread/INFO]: [0;37;22mIsland_the_end - UNLOADED[m
+[00:06:49] [Server thread/INFO]: [0;37;22maeterna - UNLOADED[m
+[00:06:49] [Server thread/INFO]: [0;37;22mIsland_nether - UNLOADED[m
+[00:06:49] [Server thread/INFO]: [0;37;22mworld_the_end - UNLOADED[m
+[00:06:49] [Server thread/INFO]: [0;37;22mDeities_the_end - UNLOADED[m
+[00:06:56] [Server thread/INFO]: [Multiverse-Core] World 'redstone' was unloaded from memory.
+[00:06:56] [Server thread/INFO]: [Multiverse-Core] World 'redstone' was unloaded from memory.
+[00:06:56] [Server thread/INFO]: CONSOLE: Unloaded world 'redstone'![m
+[00:06:58] [Server thread/INFO]: [0;35;1m====[ Multiverse World List ]====[m
+[00:06:58] [Server thread/INFO]: [0;37;1mKingdomCome_nether[0;37;1m[0;37;1m - [0;31;1mNETHER[m
+[00:06:58] [Server thread/INFO]: [0;37;1mKingdomCome_the_end[0;37;1m[0;37;1m - [0;36;1mTHE_END[m
+[00:06:58] [Server thread/INFO]: [0;37;1mIsland[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:06:58] [Server thread/INFO]: [0;37;1mworld[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:06:58] [Server thread/INFO]: [0;37;1mAthalia_nether[0;37;1m[0;37;1m - [0;31;1mNETHER[m
+[00:06:58] [Server thread/INFO]: [0;37;1mKingdomCome[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:06:58] [Server thread/INFO]: [0;37;1mAthalia[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:06:58] [Server thread/INFO]: [0;37;1mPLchunk[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:06:58] [Server thread/INFO]: [0;37;1mSkyBlockMyaso[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:06:58] [Server thread/INFO]: [0;37;1mAthalia_end[0;37;1m[0;37;1m - [0;36;1mTHE_END[m
+[00:06:58] [Server thread/INFO]: [0;37;22mDeities_nether - UNLOADED[m
+[00:06:58] [Server thread/INFO]: [0;37;22mworld_nether - UNLOADED[m
+[00:06:58] [Server thread/INFO]: [0;37;22mIsland_the_end - UNLOADED[m
+[00:06:58] [Server thread/INFO]: [0;37;22maeterna - UNLOADED[m
+[00:06:58] [Server thread/INFO]: [0;37;22mIsland_nether - UNLOADED[m
+[00:06:58] [Server thread/INFO]: [0;37;22mworld_the_end - UNLOADED[m
+[00:06:58] [Server thread/INFO]: [0;37;22mDeities_the_end - UNLOADED[m
+[00:06:58] [Server thread/INFO]: [0;37;22mredstone - UNLOADED[m
+[00:07:06] [Server thread/INFO]: [Multiverse-Core] World 'KingdomCome' was unloaded from memory.
+[00:07:06] [Server thread/INFO]: [Multiverse-Core] World 'KingdomCome' was unloaded from memory.
+[00:07:06] [Server thread/INFO]: CONSOLE: Unloaded world 'KingdomCome'![m
+[00:07:12] [Server thread/INFO]: [Multiverse-Core] World 'SkyBlockMyaso' was unloaded from memory.
+[00:07:12] [Server thread/INFO]: [Multiverse-Core] World 'SkyBlockMyaso' was unloaded from memory.
+[00:07:12] [Server thread/INFO]: CONSOLE: Unloaded world 'SkyBlockMyaso'![m
+[00:07:20] [Server thread/INFO]: [0;36;1m--- Remove World ---[m
+[00:07:20] [Server thread/INFO]: [0;33;1mUnloads a world from Multiverse and removes it from worlds.yml, this does NOT DELETE the world folder.[m
+[00:07:20] [Server thread/INFO]: [0;36;22m/mv remove[0;32;1m {WORLD}[m
+[00:07:20] [Server thread/INFO]: Permission: [0;32;1mmultiverse.core.remove[m
+[00:07:20] [Server thread/INFO]: [0;34;1mAliases: [0;31;1mmv remove, mvremove[m
+[00:07:20] [Server thread/INFO]: [0;35;1mExamples:[m
+[00:07:20] [Server thread/INFO]: /mv remove [0;32;1mMyWorld[m
+[00:07:23] [Server thread/INFO]: [Multiverse-Core] World 'PLchunk' was unloaded from memory.
+[00:07:23] [Server thread/ERROR]: null
+net.minecraft.server.v1_12_R1.ExceptionWorldConflict: Failed to check session lock for world located at ./PLchunk, aborting. Stop the server and delete the session.lock in this world to prevent further issues.
+	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:85) ~[spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2820) ~[spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1077) ~[spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1047) ~[spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.unloadWorld(CraftServer.java:983) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.unloadWorld(CraftServer.java:951) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.unloadWorldFromBukkit(WorldManager.java:558) [Multiverse-Core-2.5.1-SNAPSHOT.jar:?]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.unloadWorld(WorldManager.java:368) [Multiverse-Core-2.5.1-SNAPSHOT.jar:?]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.unloadWorld(WorldManager.java:358) [Multiverse-Core-2.5.1-SNAPSHOT.jar:?]
+	at com.onarandombox.MultiverseCore.commands.UnloadCommand.runCommand(UnloadCommand.java:36) [Multiverse-Core-2.5.1-SNAPSHOT.jar:?]
+	at com.pneumaticraft.commandhandler.multiverse.CommandHandler.checkAndRunCommand(CommandHandler.java:279) [Multiverse-Core-2.5.1-SNAPSHOT.jar:?]
+	at com.pneumaticraft.commandhandler.multiverse.CommandHandler.processFoundCommands(CommandHandler.java:143) [Multiverse-Core-2.5.1-SNAPSHOT.jar:?]
+	at com.pneumaticraft.commandhandler.multiverse.CommandHandler.locateAndRunCommand(CommandHandler.java:93) [Multiverse-Core-2.5.1-SNAPSHOT.jar:?]
+	at com.onarandombox.MultiverseCore.MultiverseCore.onCommand(MultiverseCore.java:919) [Multiverse-Core-2.5.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:644) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchServerCommand(CraftServer.java:630) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.aP(DedicatedServer.java:443) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:678) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:576) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+[00:07:23] [Server thread/INFO]: [Multiverse-Core] World 'PLchunk' was unloaded from memory.
+[00:07:23] [Server thread/INFO]: CONSOLE: Unloaded world 'PLchunk'![m
+[00:07:26] [Server thread/INFO]: [Multiverse-Core] World 'PLchunk' was removed from config.yml
+[00:07:27] [Server thread/INFO]: World removed from config![m
+[00:07:28] [Server thread/INFO]: [0;35;1m====[ Multiverse World List ]====[m
+[00:07:28] [Server thread/INFO]: [0;37;1mKingdomCome_nether[0;37;1m[0;37;1m - [0;31;1mNETHER[m
+[00:07:28] [Server thread/INFO]: [0;37;1mKingdomCome_the_end[0;37;1m[0;37;1m - [0;36;1mTHE_END[m
+[00:07:28] [Server thread/INFO]: [0;37;1mIsland[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:07:28] [Server thread/INFO]: [0;37;1mworld[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:07:28] [Server thread/INFO]: [0;37;1mAthalia_nether[0;37;1m[0;37;1m - [0;31;1mNETHER[m
+[00:07:28] [Server thread/INFO]: [0;37;1mAthalia[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:07:28] [Server thread/INFO]: [0;37;1mAthalia_end[0;37;1m[0;37;1m - [0;36;1mTHE_END[m
+[00:07:28] [Server thread/INFO]: [0;37;22mDeities_nether - UNLOADED[m
+[00:07:28] [Server thread/INFO]: [0;37;22mworld_nether - UNLOADED[m
+[00:07:28] [Server thread/INFO]: [0;37;22mKingdomCome - UNLOADED[m
+[00:07:28] [Server thread/INFO]: [0;37;22mIsland_the_end - UNLOADED[m
+[00:07:28] [Server thread/INFO]: [0;37;22maeterna - UNLOADED[m
+[00:07:28] [Server thread/INFO]: [0;37;22mIsland_nether - UNLOADED[m
+[00:07:28] [Server thread/INFO]: [0;37;22mworld_the_end - UNLOADED[m
+[00:07:28] [Server thread/INFO]: [0;37;22mDeities_the_end - UNLOADED[m
+[00:07:28] [Server thread/INFO]: [0;37;22mSkyBlockMyaso - UNLOADED[m
+[00:07:28] [Server thread/INFO]: [0;37;22mredstone - UNLOADED[m
+[00:07:33] [Server thread/INFO]: [Multiverse-Core] World 'Island' was unloaded from memory.
+[00:07:33] [Server thread/INFO]: [Multiverse-Core] World 'Island' was unloaded from memory.
+[00:07:33] [Server thread/INFO]: CONSOLE: Unloaded world 'Island'![m
+[00:07:36] [Server thread/INFO]: [0;35;1m====[ Multiverse World List ]====[m
+[00:07:36] [Server thread/INFO]: [0;37;1mKingdomCome_nether[0;37;1m[0;37;1m - [0;31;1mNETHER[m
+[00:07:36] [Server thread/INFO]: [0;37;1mKingdomCome_the_end[0;37;1m[0;37;1m - [0;36;1mTHE_END[m
+[00:07:36] [Server thread/INFO]: [0;37;1mworld[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:07:36] [Server thread/INFO]: [0;37;1mAthalia_nether[0;37;1m[0;37;1m - [0;31;1mNETHER[m
+[00:07:36] [Server thread/INFO]: [0;37;1mAthalia[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:07:36] [Server thread/INFO]: [0;37;1mAthalia_end[0;37;1m[0;37;1m - [0;36;1mTHE_END[m
+[00:07:36] [Server thread/INFO]: [0;37;22mDeities_nether - UNLOADED[m
+[00:07:36] [Server thread/INFO]: [0;37;22mworld_nether - UNLOADED[m
+[00:07:36] [Server thread/INFO]: [0;37;22mKingdomCome - UNLOADED[m
+[00:07:36] [Server thread/INFO]: [0;37;22mIsland_the_end - UNLOADED[m
+[00:07:36] [Server thread/INFO]: [0;37;22maeterna - UNLOADED[m
+[00:07:36] [Server thread/INFO]: [0;37;22mIsland_nether - UNLOADED[m
+[00:07:36] [Server thread/INFO]: [0;37;22mIsland - UNLOADED[m
+[00:07:36] [Server thread/INFO]: [0;37;22mworld_the_end - UNLOADED[m
+[00:07:36] [Server thread/INFO]: [0;37;22mDeities_the_end - UNLOADED[m
+[00:07:36] [Server thread/INFO]: [0;37;22mSkyBlockMyaso - UNLOADED[m
+[00:07:36] [Server thread/INFO]: [0;37;22mredstone - UNLOADED[m
+[00:07:43] [Server thread/INFO]: [Multiverse-Core] World 'KingdomCome_nether' was unloaded from memory.
+[00:07:43] [Server thread/INFO]: [Multiverse-Core] World 'KingdomCome_nether' was unloaded from memory.
+[00:07:43] [Server thread/INFO]: CONSOLE: Unloaded world 'KingdomCome_nether'![m
+[00:07:49] [Server thread/INFO]: [Multiverse-Core] World 'KingdomCome_the_end' was unloaded from memory.
+[00:07:49] [Server thread/INFO]: [Multiverse-Core] World 'KingdomCome_the_end' was unloaded from memory.
+[00:07:49] [Server thread/INFO]: CONSOLE: Unloaded world 'KingdomCome_the_end'![m
+[00:07:52] [Server thread/INFO]: [0;35;1m====[ Multiverse World List ]====[m
+[00:07:52] [Server thread/INFO]: [0;37;1mworld[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:07:52] [Server thread/INFO]: [0;37;1mAthalia_nether[0;37;1m[0;37;1m - [0;31;1mNETHER[m
+[00:07:52] [Server thread/INFO]: [0;37;1mAthalia[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:07:52] [Server thread/INFO]: [0;37;1mAthalia_end[0;37;1m[0;37;1m - [0;36;1mTHE_END[m
+[00:07:52] [Server thread/INFO]: [0;37;22mKingdomCome_nether - UNLOADED[m
+[00:07:52] [Server thread/INFO]: [0;37;22mDeities_nether - UNLOADED[m
+[00:07:52] [Server thread/INFO]: [0;37;22mKingdomCome_the_end - UNLOADED[m
+[00:07:52] [Server thread/INFO]: [0;37;22mworld_nether - UNLOADED[m
+[00:07:52] [Server thread/INFO]: [0;37;22mKingdomCome - UNLOADED[m
+[00:07:52] [Server thread/INFO]: [0;37;22mIsland_the_end - UNLOADED[m
+[00:07:52] [Server thread/INFO]: [0;37;22maeterna - UNLOADED[m
+[00:07:52] [Server thread/INFO]: [0;37;22mIsland_nether - UNLOADED[m
+[00:07:52] [Server thread/INFO]: [0;37;22mIsland - UNLOADED[m
+[00:07:52] [Server thread/INFO]: [0;37;22mworld_the_end - UNLOADED[m
+[00:07:52] [Server thread/INFO]: [0;37;22mDeities_the_end - UNLOADED[m
+[00:07:52] [Server thread/INFO]: [0;37;22mSkyBlockMyaso - UNLOADED[m
+[00:07:52] [Server thread/INFO]: [0;37;22mredstone - UNLOADED[m
+[00:08:04] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[00:08:10] [Server thread/INFO]: Usage: /stats <entity|block> ...
+[00:08:30] [Server thread/INFO]: Usage: /stats entity <selector> <mode> ...
+[00:16:10] [Server thread/INFO]: psywiped has made the advancement [Getting an Upgrade]
+[00:16:13] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[00:17:06] [Server thread/INFO]: UmbraErr0r404 issued server command: /tp jen
+[00:17:06] [Server thread/INFO]: [UmbraErr0r404: Entity 'jen' cannot be found]
+[00:24:33] [Server thread/INFO]: UmbraErr0r404 issued server command: /tp jenkinsboy
+[00:24:33] [Server thread/INFO]: [UmbraErr0r404: Teleported UmbraErr0r404 to jenkinsboy]
+[00:30:41] [Server thread/INFO]: jenkinsboy has made the advancement [We Need to Go Deeper]
+[00:31:42] [Server thread/INFO]: [0;36;1m====[ Multiverse Help ]====[m
+[00:31:42] [Server thread/INFO]: [0;36;1m Add a '[0;35;22m?[0;36;1m' after a command to see more about it.[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv [0;33;22m[FILTER] [PAGE #][m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv version [0;33;22m-[pbg][m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv list[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv info[0;33;22m [WORLD] [PAGE][m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv create [0;32;1m{NAME} {ENV} [0;33;22m-s [SEED] -g [GENERATOR[:ID]] -t [WORLDTYPE] [-n] -a [true|false][m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv clone[0;32;1m {TARGET} {NAME}[0;33;22m -g [GENERATOR[:ID]][m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv import[0;32;1m {NAME} {ENV}[0;33;22m -g [GENERATOR[:ID]] [-n][m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv reload[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv setspawn[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv coord[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv tp [0;33;22m[PLAYER][0;32;1m {WORLD}[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv who[0;33;22m [WORLD|--all][m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv spawn[0;33;22m [PLAYER][m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv unload[0;32;1m {WORLD}[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv load[0;32;1m {WORLD}[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv remove[0;32;1m {WORLD}[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv delete[0;32;1m {WORLD}[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv regen[0;32;1m {WORLD}[0;33;22m [-s [SEED]][m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv confirm[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv modify[0;32;1m {set|add|remove|clear} ...[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv purge[0;33;22m [WORLD|all] [0;32;1m{all|animals|monsters|MOBNAME}[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv modify [0;32;1madd {VALUE} {PROPERTY}[0;33;22m [WORLD] [m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv modify[0;32;1m set {PROPERTY} {VALUE}[0;33;22m [WORLD][m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv modify[0;32;1m remove {PROPERTY} {VALUE}[0;33;22m [WORLD][m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv modify[0;32;1m clear {PROPERTY}[0;33;22m [WORLD][m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv config [0;32;1m{PROPERTY} {VALUE}[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv anchor [0;32;1m{name}[0;33;22m [-d][m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv env[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv debug[0;33;22m [1|2|3|off|silent][m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv silent[0;33;22m [true|false|on|off][m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv generators[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv check [0;32;1m{PLAYER} {DESTINATION}[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv script[0;33;22m {script} [target][m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv gamerule [0;32;1m{RULE} {VALUE}[0;33;22m [WORLD][m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mv gamerules[0;33;22m [WORLD][m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mvp info [0;32;1m{PORTAL}[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mvp list [0;33;22m[FILTER] [WORLD][m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mvp create[0;32;1m {NAME}[0;33;22m [DESTINATION][m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mvp debug[0;33;22m [on|off][m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mvp remove[0;32;1m {NAME}[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mvp modify[0;32;1m {PROPERTY}[0;33;22m [VALUE] -p [PORTAL][m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mvp select [0;32;1m{PORTAL}[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mvp wand[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mvp config [0;32;1m{PROPERTY} {VALUE}[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mvinv info [0;32;1m[WORLD|GROUP][m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mvinv import [0;32;1m{MultiInv|WorldInventories}[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mvinv list[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mvinv reload[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mvinv addworld {WORLD} {GROUP}[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mvinv removeworld {WORLD} {GROUP}[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mvinv addshares {SHARE[,EXTRA]} {GROUP}[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mvinv removeshares {SHARE[,EXTRA]} {GROUP}[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mvinv spawn[0;33;22m [PLAYER][m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mvinv group[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mvinv toggle {SHARE}[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mvnp link [0;32;1m{end|nether} [0;33;22m[FROM_WORLD] [0;32;1m {TO_WORLD}[m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mvnp unlink [0;32;1m{nether|end}[0;33;22m[FROM_WORLD][m
+[00:31:42] [Server thread/INFO]: [0;36;1m/mvnp show [0;33;22m[type] [PAGE #][m
+[00:31:46] [Server thread/INFO]:  You may only use the no argument version of this command in game![m
+[00:31:53] [Server thread/INFO]:  [0;36;1m===[ Group List ]===[m
+[00:31:53] [Server thread/INFO]: [0;33;22mGroups:[0;37;1m default, creative, Deities, Island, LPL[m
+[00:32:06] [Server thread/INFO]: What would you like to do? Create, Edit or Delete.  Enter ## at any time to cancel.
+[00:32:19] [Server thread/INFO]: mvinv group create Athalia
+[00:32:19] [Server thread/INFO]:  [0;31;1mThat is not a valid option! Type [0;37;1m##[0;31;1m to stop working on groups.[m
+[00:32:19] [Server thread/INFO]: What would you like to do? Create, Edit or Delete.  Enter ## at any time to cancel.
+[00:32:34] [Server thread/INFO]: mvinv group Create Athalia
+[00:32:34] [Server thread/INFO]:  [0;31;1mThat is not a valid option! Type [0;37;1m##[0;31;1m to stop working on groups.[m
+[00:32:34] [Server thread/INFO]: What would you like to do? Create, Edit or Delete.  Enter ## at any time to cancel.
+[00:32:38] [Server thread/INFO]: mvinv group Create
+[00:32:38] [Server thread/INFO]:  [0;31;1mThat is not a valid option! Type [0;37;1m##[0;31;1m to stop working on groups.[m
+[00:32:38] [Server thread/INFO]: What would you like to do? Create, Edit or Delete.  Enter ## at any time to cancel.
+[00:32:46] [Server thread/INFO]: mvinv group create
+[00:32:46] [Server thread/INFO]:  [0;31;1mThat is not a valid option! Type [0;37;1m##[0;31;1m to stop working on groups.[m
+[00:32:46] [Server thread/INFO]: What would you like to do? Create, Edit or Delete.  Enter ## at any time to cancel.
+[00:33:07] [Server thread/INFO]: mvinv addworld Athalia Athalia
+[00:33:07] [Server thread/INFO]:  [0;31;1mThat is not a valid option! Type [0;37;1m##[0;31;1m to stop working on groups.[m
+[00:33:07] [Server thread/INFO]: What would you like to do? Create, Edit or Delete.  Enter ## at any time to cancel.
+[00:33:14] [Server thread/INFO]: ##
+[00:33:20] [Server thread/INFO]: [0;36;1m--- Creates a world group. ---[m
+[00:33:20] [Server thread/INFO]: [0;33;1mBegins a conversation about groups.[m
+[00:33:20] [Server thread/INFO]: [0;36;22m/mvinv group[m
+[00:33:20] [Server thread/INFO]: Permission: [0;32;1mmultiverse.inventories.group[m
+[00:33:20] [Server thread/INFO]: [0;34;1mAliases: [0;31;1mmvinv group, mvinvgroup, mvinv g, mvinvg[m
+[00:33:44] [Server thread/INFO]: [0;36;1m--- Creates a world group. ---[m
+[00:33:44] [Server thread/INFO]: [0;33;1mBegins a conversation about groups.[m
+[00:33:44] [Server thread/INFO]: [0;36;22m/mvinv group[m
+[00:33:44] [Server thread/INFO]: Permission: [0;32;1mmultiverse.inventories.group[m
+[00:33:44] [Server thread/INFO]: [0;34;1mAliases: [0;31;1mmvinv group, mvinvgroup, mvinv g, mvinvg[m
+[00:34:00] [Server thread/INFO]: [0;36;1m====[ Multiverse Help ]====[m
+[00:34:00] [Server thread/INFO]: [0;36;1m Add a '[0;35;22m?[0;36;1m' after a command to see more about it.[m
+[00:34:00] [Server thread/INFO]: [0;36;1m/mv create [0;32;1m{NAME} {ENV} [0;33;22m-s [SEED] -g [GENERATOR[:ID]] -t [WORLDTYPE] [-n] -a [true|false][m
+[00:34:00] [Server thread/INFO]: [0;36;1m/mv anchor [0;32;1m{name}[0;33;22m [-d][m
+[00:34:00] [Server thread/INFO]: [0;36;1m/mvp create[0;32;1m {NAME}[0;33;22m [DESTINATION][m
+[00:34:00] [Server thread/INFO]: [0;36;1m/mvinv group[m
+[00:34:11] [Server thread/INFO]: [0;36;1m--- Creates a world group. ---[m
+[00:34:11] [Server thread/INFO]: [0;33;1mBegins a conversation about groups.[m
+[00:34:11] [Server thread/INFO]: [0;36;22m/mvinv group[m
+[00:34:11] [Server thread/INFO]: Permission: [0;32;1mmultiverse.inventories.group[m
+[00:34:11] [Server thread/INFO]: [0;34;1mAliases: [0;31;1mmvinv group, mvinvgroup, mvinv g, mvinvg[m
+[00:34:18] [Server thread/INFO]: [0;36;1m--- Creates a world group. ---[m
+[00:34:18] [Server thread/INFO]: [0;33;1mBegins a conversation about groups.[m
+[00:34:18] [Server thread/INFO]: [0;36;22m/mvinv group[m
+[00:34:18] [Server thread/INFO]: Permission: [0;32;1mmultiverse.inventories.group[m
+[00:34:18] [Server thread/INFO]: [0;34;1mAliases: [0;31;1mmvinv group, mvinvgroup, mvinv g, mvinvg[m
+[00:34:28] [Server thread/INFO]: What would you like to do? Create, Edit or Delete.  Enter ## at any time to cancel.
+[00:34:34] [Server thread/INFO]: jenkinsboy issued server command: /tp umbraerr0r404
+[00:34:34] [Server thread/INFO]: [jenkinsboy: Teleported jenkinsboy to UmbraErr0r404]
+[00:34:37] [Server thread/INFO]: create
+[00:34:37] [Server thread/INFO]: Please name your new group: 
+[00:34:41] [Server thread/INFO]: Athalia
+[00:34:41] [Server thread/INFO]: Enter the name of a world to add to group Athalia or enter @ to continue.  To worlds by precede the name with the minus symbol. (ex: -worldname).  Current worlds: 
+[00:34:49] [Server thread/INFO]: Athalia
+[00:34:49] [Server thread/INFO]: Enter the name of a world to add to group Athalia or enter @ to continue.  To worlds by precede the name with the minus symbol. (ex: -worldname).  Current worlds: Athalia
+[00:34:53] [Server thread/INFO]: @
+[00:34:53] [Server thread/INFO]: Enter all or a specific share to add to group Athalia or enter @ to continue.  To remove shares precede the name with the minus symbol (ex: -inventory).  Current shares: 
+[00:35:01] [Server thread/INFO]: @
+[00:35:01] [Server thread/INFO]:  [0;32;22mYou created a new group![m
+[00:35:01] [Server thread/INFO]:  [0;36;1m===[ Info for group: [0;33;22mAthalia[0;36;1m ]===[m
+[00:35:01] [Server thread/INFO]:  [0;33;22mWorlds:[0;37;1m [Athalia][m
+[00:35:01] [Server thread/INFO]: [0;36;1mShares:[0;37;1m [m
+[00:35:01] [Server thread/INFO]: Checking for conflicts in groups...[m
+[00:35:01] [Server thread/INFO]: No group conflicts found![m
+[00:35:12] [Server thread/INFO]:  [0;36;1m===[ Group List ]===[m
+[00:35:12] [Server thread/INFO]: [0;33;22mGroups:[0;37;1m default, creative, Deities, Island, LPL, Athalia[m
+[00:35:17] [Server thread/INFO]: [0;35;1m====[ Multiverse World List ]====[m
+[00:35:17] [Server thread/INFO]: [0;37;1mworld[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:35:17] [Server thread/INFO]: [0;37;1mAthalia_nether[0;37;1m[0;37;1m - [0;31;1mNETHER[m
+[00:35:17] [Server thread/INFO]: [0;37;1mAthalia[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:35:17] [Server thread/INFO]: [0;37;1mAthalia_end[0;37;1m[0;37;1m - [0;36;1mTHE_END[m
+[00:35:17] [Server thread/INFO]: [0;37;22mKingdomCome_nether - UNLOADED[m
+[00:35:17] [Server thread/INFO]: [0;37;22mDeities_nether - UNLOADED[m
+[00:35:17] [Server thread/INFO]: [0;37;22mKingdomCome_the_end - UNLOADED[m
+[00:35:17] [Server thread/INFO]: [0;37;22mworld_nether - UNLOADED[m
+[00:35:17] [Server thread/INFO]: [0;37;22mKingdomCome - UNLOADED[m
+[00:35:17] [Server thread/INFO]: [0;37;22mIsland_the_end - UNLOADED[m
+[00:35:17] [Server thread/INFO]: [0;37;22maeterna - UNLOADED[m
+[00:35:17] [Server thread/INFO]: [0;37;22mIsland_nether - UNLOADED[m
+[00:35:17] [Server thread/INFO]: [0;37;22mIsland - UNLOADED[m
+[00:35:17] [Server thread/INFO]: [0;37;22mworld_the_end - UNLOADED[m
+[00:35:17] [Server thread/INFO]: [0;37;22mDeities_the_end - UNLOADED[m
+[00:35:17] [Server thread/INFO]: [0;37;22mSkyBlockMyaso - UNLOADED[m
+[00:35:17] [Server thread/INFO]: [0;37;22mredstone - UNLOADED[m
+[00:35:20] [Server thread/INFO]: [0;36;1m====[ Multiverse Help ]====[m
+[00:35:20] [Server thread/INFO]: [0;36;1m Add a '[0;35;22m?[0;36;1m' after a command to see more about it.[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv [0;33;22m[FILTER] [PAGE #][m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv version [0;33;22m-[pbg][m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv list[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv info[0;33;22m [WORLD] [PAGE][m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv create [0;32;1m{NAME} {ENV} [0;33;22m-s [SEED] -g [GENERATOR[:ID]] -t [WORLDTYPE] [-n] -a [true|false][m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv clone[0;32;1m {TARGET} {NAME}[0;33;22m -g [GENERATOR[:ID]][m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv import[0;32;1m {NAME} {ENV}[0;33;22m -g [GENERATOR[:ID]] [-n][m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv reload[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv setspawn[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv coord[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv tp [0;33;22m[PLAYER][0;32;1m {WORLD}[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv who[0;33;22m [WORLD|--all][m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv spawn[0;33;22m [PLAYER][m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv unload[0;32;1m {WORLD}[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv load[0;32;1m {WORLD}[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv remove[0;32;1m {WORLD}[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv delete[0;32;1m {WORLD}[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv regen[0;32;1m {WORLD}[0;33;22m [-s [SEED]][m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv confirm[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv modify[0;32;1m {set|add|remove|clear} ...[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv purge[0;33;22m [WORLD|all] [0;32;1m{all|animals|monsters|MOBNAME}[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv modify [0;32;1madd {VALUE} {PROPERTY}[0;33;22m [WORLD] [m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv modify[0;32;1m set {PROPERTY} {VALUE}[0;33;22m [WORLD][m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv modify[0;32;1m remove {PROPERTY} {VALUE}[0;33;22m [WORLD][m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv modify[0;32;1m clear {PROPERTY}[0;33;22m [WORLD][m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv config [0;32;1m{PROPERTY} {VALUE}[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv anchor [0;32;1m{name}[0;33;22m [-d][m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv env[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv debug[0;33;22m [1|2|3|off|silent][m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv silent[0;33;22m [true|false|on|off][m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv generators[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv check [0;32;1m{PLAYER} {DESTINATION}[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv script[0;33;22m {script} [target][m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv gamerule [0;32;1m{RULE} {VALUE}[0;33;22m [WORLD][m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mv gamerules[0;33;22m [WORLD][m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mvp info [0;32;1m{PORTAL}[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mvp list [0;33;22m[FILTER] [WORLD][m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mvp create[0;32;1m {NAME}[0;33;22m [DESTINATION][m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mvp debug[0;33;22m [on|off][m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mvp remove[0;32;1m {NAME}[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mvp modify[0;32;1m {PROPERTY}[0;33;22m [VALUE] -p [PORTAL][m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mvp select [0;32;1m{PORTAL}[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mvp wand[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mvp config [0;32;1m{PROPERTY} {VALUE}[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mvinv info [0;32;1m[WORLD|GROUP][m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mvinv import [0;32;1m{MultiInv|WorldInventories}[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mvinv list[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mvinv reload[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mvinv addworld {WORLD} {GROUP}[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mvinv removeworld {WORLD} {GROUP}[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mvinv addshares {SHARE[,EXTRA]} {GROUP}[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mvinv removeshares {SHARE[,EXTRA]} {GROUP}[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mvinv spawn[0;33;22m [PLAYER][m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mvinv group[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mvinv toggle {SHARE}[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mvnp link [0;32;1m{end|nether} [0;33;22m[FROM_WORLD] [0;32;1m {TO_WORLD}[m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mvnp unlink [0;32;1m{nether|end}[0;33;22m[FROM_WORLD][m
+[00:35:20] [Server thread/INFO]: [0;36;1m/mvnp show [0;33;22m[type] [PAGE #][m
+[00:35:38] [Server thread/INFO]:  [0;33;22mWorld:[0;37;1m Athalia_nether [0;33;22madded to Group: [0;37;1mAthalia[m
+[00:35:50] [Server thread/INFO]:  [0;33;22mWorld:[0;37;1m Athalia_end [0;33;22madded to Group: [0;37;1mAthalia[m
+[00:36:02] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[00:36:08] [Server thread/INFO]:  [0;36;1m===[ Group List ]===[m
+[00:36:08] [Server thread/INFO]: [0;33;22mGroups:[0;37;1m default, creative, Deities, Island, LPL, Athalia[m
+[00:36:18] [Server thread/INFO]: [0;36;1m====[ Multiverse Help ]====[m
+[00:36:18] [Server thread/INFO]: [0;31;1mSorry... [0;37;1mNo commands matched your filter: [0;36;1mAthalia[m
+[00:37:56] [Server thread/INFO]: [0;31;1m[====[0;32;1m /permissons [0;31;1m====][m
+[00:37:56] [Server thread/INFO]: [0;32;1m/permissions reload - [0;37;1mreload the configuration from disk.[m
+[00:37:56] [Server thread/INFO]: [0;32;1m/permissions about - [0;37;1mdisplay general information on the plugin.[m
+[00:37:56] [Server thread/INFO]: [0;32;1m/permissions check [0;35;1m<node>[0;32;1m [0;36;1m[player][0;32;1m - [0;37;1mcheck if a player or the sender has a permission (any plugin).[m
+[00:37:56] [Server thread/INFO]: [0;32;1m/permissions info [0;35;1m<node>[0;32;1m - [0;37;1mprints information on a specific permission.[m
+[00:37:56] [Server thread/INFO]: [0;32;1m/permissions dump [0;36;1m[player][0;32;1m [0;36;1m[page][0;32;1m - [0;37;1mprints info about a player's (or the sender's) permissions.[m
+[00:37:56] [Server thread/INFO]: [0;32;1m/permissions setrank [0;35;1m<player>[0;32;1m [0;35;1m<group>[0;32;1m - [0;37;1mset a player to be in a group with per-group permissions.[m
+[00:37:56] [Server thread/INFO]: [0;32;1m/permissions group - [0;37;1mlist group-related commands.[m
+[00:37:56] [Server thread/INFO]: [0;32;1m/permissions player - [0;37;1mlist player-related commands.[m
+[00:38:01] [Server thread/INFO]: [0;31;1m[====[0;32;1m /permissons player [0;31;1m====][m
+[00:38:01] [Server thread/INFO]: [0;32;1m/permissions player - [0;37;1mlist player-related commands.[m
+[00:38:01] [Server thread/INFO]: [0;32;1m/permissions player groups [0;35;1m<player>[0;32;1m - [0;37;1mlist groups a player is in.[m
+[00:38:01] [Server thread/INFO]: [0;32;1m/permissions player setgroup [0;35;1m<player>[0;32;1m [0;35;1m<group,...>[0;32;1m - [0;37;1mset a player to be in only the given groups.[m
+[00:38:01] [Server thread/INFO]: [0;32;1m/permissions player addgroup [0;35;1m<player>[0;32;1m [0;35;1m<group>[0;32;1m - [0;37;1madd a player to a group.[m
+[00:38:01] [Server thread/INFO]: [0;32;1m/permissions player removegroup [0;35;1m<player>[0;32;1m [0;35;1m<group>[0;32;1m - [0;37;1mremove a player from a group.[m
+[00:38:01] [Server thread/INFO]: [0;32;1m/permissions player setperm [0;35;1m<player>[0;32;1m [0;35;1m<[0;36;1m[world:][0;35;1mnode>[0;32;1m [0;36;1m[true|false][0;32;1m - [0;37;1mset a permission on a player.[m
+[00:38:01] [Server thread/INFO]: [0;32;1m/permissions player unsetperm [0;35;1m<player>[0;32;1m [0;35;1m<[0;36;1m[world:][0;35;1mnode>[0;32;1m - [0;37;1munset a permission on a player.[m
+[00:42:08] [User Authenticator #10/INFO]: UUID of player IPadForLife is 1e1536ca-84e9-4ef3-aeec-bf09e9d52f3b
+[00:42:08] [Server thread/INFO]: IPadForLife[/173.191.38.172:57680] logged in with entity id 65811 at ([world]117.5, 64.0, 257.5)
+[00:42:31] [Server thread/INFO]: [0;32;1mPlayer [0;37;1m1e1536ca-84e9-4ef3-aeec-bf09e9d52f3b[0;32;1m is now in [0;37;1muser[0;32;1m.[m
+[00:42:37] [Server thread/INFO]: Teleported IPadForLife to UmbraErr0r404
+[00:43:32] [Server thread/INFO]: IPadForLife has made the advancement [Getting an Upgrade]
+[00:44:13] [Server thread/INFO]: IPadForLife has made the advancement [Suit Up]
+[00:45:18] [Server thread/INFO]: [0;35;1m====[ Multiverse World List ]====[m
+[00:45:18] [Server thread/INFO]: [0;37;1mworld[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:45:18] [Server thread/INFO]: [0;37;1mAthalia_nether[0;37;1m[0;37;1m - [0;31;1mNETHER[m
+[00:45:18] [Server thread/INFO]: [0;37;1mAthalia[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:45:18] [Server thread/INFO]: [0;37;1mAthalia_end[0;37;1m[0;37;1m - [0;36;1mTHE_END[m
+[00:45:18] [Server thread/INFO]: [0;37;22mKingdomCome_nether - UNLOADED[m
+[00:45:18] [Server thread/INFO]: [0;37;22mDeities_nether - UNLOADED[m
+[00:45:18] [Server thread/INFO]: [0;37;22mKingdomCome_the_end - UNLOADED[m
+[00:45:18] [Server thread/INFO]: [0;37;22mworld_nether - UNLOADED[m
+[00:45:18] [Server thread/INFO]: [0;37;22mKingdomCome - UNLOADED[m
+[00:45:18] [Server thread/INFO]: [0;37;22mIsland_the_end - UNLOADED[m
+[00:45:18] [Server thread/INFO]: [0;37;22maeterna - UNLOADED[m
+[00:45:18] [Server thread/INFO]: [0;37;22mIsland_nether - UNLOADED[m
+[00:45:18] [Server thread/INFO]: [0;37;22mIsland - UNLOADED[m
+[00:45:18] [Server thread/INFO]: [0;37;22mworld_the_end - UNLOADED[m
+[00:45:18] [Server thread/INFO]: [0;37;22mDeities_the_end - UNLOADED[m
+[00:45:18] [Server thread/INFO]: [0;37;22mSkyBlockMyaso - UNLOADED[m
+[00:45:18] [Server thread/INFO]: [0;37;22mredstone - UNLOADED[m
+[00:47:24] [Server thread/INFO]: IPadForLife has made the advancement [Monster Hunter]
+[00:49:36] [Server thread/INFO]: [0;35;1m====[ Multiverse World List ]====[m
+[00:49:36] [Server thread/INFO]: [0;37;1mworld[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:49:36] [Server thread/INFO]: [0;37;1mAthalia_nether[0;37;1m[0;37;1m - [0;31;1mNETHER[m
+[00:49:36] [Server thread/INFO]: [0;37;1mAthalia[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:49:36] [Server thread/INFO]: [0;37;1mAthalia_end[0;37;1m[0;37;1m - [0;36;1mTHE_END[m
+[00:49:36] [Server thread/INFO]: [0;37;22mKingdomCome_nether - UNLOADED[m
+[00:49:36] [Server thread/INFO]: [0;37;22mDeities_nether - UNLOADED[m
+[00:49:36] [Server thread/INFO]: [0;37;22mKingdomCome_the_end - UNLOADED[m
+[00:49:36] [Server thread/INFO]: [0;37;22mworld_nether - UNLOADED[m
+[00:49:36] [Server thread/INFO]: [0;37;22mKingdomCome - UNLOADED[m
+[00:49:36] [Server thread/INFO]: [0;37;22mIsland_the_end - UNLOADED[m
+[00:49:36] [Server thread/INFO]: [0;37;22maeterna - UNLOADED[m
+[00:49:36] [Server thread/INFO]: [0;37;22mIsland_nether - UNLOADED[m
+[00:49:36] [Server thread/INFO]: [0;37;22mIsland - UNLOADED[m
+[00:49:36] [Server thread/INFO]: [0;37;22mworld_the_end - UNLOADED[m
+[00:49:36] [Server thread/INFO]: [0;37;22mDeities_the_end - UNLOADED[m
+[00:49:36] [Server thread/INFO]: [0;37;22mSkyBlockMyaso - UNLOADED[m
+[00:49:36] [Server thread/INFO]: [0;37;22mredstone - UNLOADED[m
+[00:50:43] [Server thread/INFO]: IPadForLife has made the advancement [Stone Age]
+[00:53:26] [Server thread/INFO]: jenkinsboy issued server command: /set home
+[00:53:29] [Server thread/INFO]: jenkinsboy issued server command: /help
+[00:53:35] [Server thread/INFO]: jenkinsboy issued server command: /help 1
+[00:53:50] [Server thread/INFO]: [0;35;1m====[ Multiverse World List ]====[m
+[00:53:50] [Server thread/INFO]: [0;37;1mworld[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:53:50] [Server thread/INFO]: [0;37;1mAthalia_nether[0;37;1m[0;37;1m - [0;31;1mNETHER[m
+[00:53:50] [Server thread/INFO]: [0;37;1mAthalia[0;37;1m[0;37;1m - [0;32;1mNORMAL[m
+[00:53:50] [Server thread/INFO]: [0;37;1mAthalia_end[0;37;1m[0;37;1m - [0;36;1mTHE_END[m
+[00:53:50] [Server thread/INFO]: [0;37;22mKingdomCome_nether - UNLOADED[m
+[00:53:50] [Server thread/INFO]: [0;37;22mDeities_nether - UNLOADED[m
+[00:53:50] [Server thread/INFO]: [0;37;22mKingdomCome_the_end - UNLOADED[m
+[00:53:50] [Server thread/INFO]: [0;37;22mworld_nether - UNLOADED[m
+[00:53:50] [Server thread/INFO]: [0;37;22mKingdomCome - UNLOADED[m
+[00:53:50] [Server thread/INFO]: [0;37;22mIsland_the_end - UNLOADED[m
+[00:53:50] [Server thread/INFO]: [0;37;22maeterna - UNLOADED[m
+[00:53:50] [Server thread/INFO]: [0;37;22mIsland_nether - UNLOADED[m
+[00:53:50] [Server thread/INFO]: [0;37;22mIsland - UNLOADED[m
+[00:53:50] [Server thread/INFO]: [0;37;22mworld_the_end - UNLOADED[m
+[00:53:50] [Server thread/INFO]: [0;37;22mDeities_the_end - UNLOADED[m
+[00:53:50] [Server thread/INFO]: [0;37;22mSkyBlockMyaso - UNLOADED[m
+[00:53:50] [Server thread/INFO]: [0;37;22mredstone - UNLOADED[m
+[00:53:52] [Server thread/INFO]: jenkinsboy issued server command: /help 1
+[00:53:58] [Server thread/INFO]: jenkinsboy issued server command: /help 2
+[00:54:05] [Server thread/INFO]: [Multiverse-Core] World 'aeterna' was removed from config.yml
+[00:54:06] [Server thread/INFO]: World removed from config![m
+[00:54:08] [Server thread/INFO]: jenkinsboy issued server command: /help 3
+[00:54:15] [Server thread/INFO]: jenkinsboy issued server command: /help 4
+[00:54:20] [Server thread/INFO]: jenkinsboy issued server command: /help 5
+[00:54:26] [Server thread/INFO]: jenkinsboy issued server command: /help 6
+[00:54:30] [Server thread/INFO]: jenkinsboy issued server command: /help 7
+[00:54:38] [Server thread/INFO]: jenkinsboy issued server command: /help 8
+[00:54:45] [Server thread/INFO]: jenkinsboy issued server command: /help 9
+[00:54:54] [Server thread/INFO]: jenkinsboy issued server command: /help 10
+[00:55:04] [Server thread/INFO]: jenkinsboy issued server command: /help 11
+[00:55:10] [Server thread/INFO]: jenkinsboy issued server command: /help 12
+[00:55:45] [Server thread/INFO]: jenkinsboy issued server command: /help 13
+[00:55:57] [Server thread/INFO]: jenkinsboy issued server command: /help 14
+[00:56:09] [Server thread/INFO]: jenkinsboy issued server command: /help 13
+[00:56:21] [Server thread/INFO]: jenkinsboy issued server command: /mvspawn
+[00:56:57] [Server thread/INFO]: jenkinsboy issued server command: /tp umbraerr0r404
+[00:56:57] [Server thread/INFO]: [jenkinsboy: Teleported jenkinsboy to UmbraErr0r404]
+[00:57:14] [Server thread/WARN]: UmbraErr0r404 moved too quickly! -11.377772584737158,0.0,1.1966609045113046
+[00:59:59] [Server thread/INFO]: psywiped was slain by Spider
+[01:00:27] [Server thread/INFO]: psywiped issued server command: /TELEPORT IPADFORLIFE
+[01:00:43] [Server thread/INFO]: psywiped issued server command: /TP IPADFORLIFE
+[01:00:43] [Server thread/INFO]: [psywiped: Teleported psywiped to IPadForLife]
+[01:01:25] [Server thread/INFO]: psywiped was blown up by Creeper
+[01:01:29] [Server thread/WARN]: psywiped was kicked for floating too long!
+[01:01:29] [Server thread/INFO]: psywiped lost connection: Flying is not enabled on this server
+[01:01:29] [Server thread/INFO]: psywiped left the game
+[01:01:29] [Server thread/WARN]: handleDisconnection() called twice
+[01:01:54] [Server thread/INFO]: IPadForLife lost connection: Disconnected
+[01:01:54] [Server thread/INFO]: IPadForLife left the game
+[01:01:54] [Server thread/WARN]: jenkinsboy moved too quickly! 34.72393413132443,-1.2178207753865067,-1.0740694375147086
+[01:01:58] [User Authenticator #11/INFO]: UUID of player psywiped is 4f1d0ec0-3e99-4a1e-9d6a-e9b51ae525c9
+[01:01:58] [User Authenticator #12/INFO]: UUID of player IPadForLife is 1e1536ca-84e9-4ef3-aeec-bf09e9d52f3b
+[01:01:58] [Server thread/INFO]: psywiped[/75.21.144.54:5128] logged in with entity id 74762 at ([Athalia]402.9241179867568, 71.09590362663486, -608.9351803070186)
+[01:01:59] [Server thread/INFO]: IPadForLife[/173.191.38.172:57707] logged in with entity id 74774 at ([Athalia]406.4421156098893, 66.0, -762.2304084085745)
+[01:02:26] [Server thread/INFO]: psywiped issued server command: /TP UmbraErr0r404
+[01:02:26] [Server thread/INFO]: [psywiped: Teleported psywiped to UmbraErr0r404]
+[01:04:11] [Server thread/INFO]: psywiped issued server command: /TP UmbraErr0r404
+[01:04:11] [Server thread/INFO]: [psywiped: Teleported psywiped to UmbraErr0r404]
+[01:06:08] [Server thread/INFO]: IPadForLife lost connection: Disconnected
+[01:06:08] [Server thread/INFO]: IPadForLife left the game
+[01:06:34] [Server thread/INFO]: jenkinsboy lost connection: Disconnected
+[01:06:34] [Server thread/INFO]: jenkinsboy left the game
+[01:06:43] [Server thread/INFO]: psywiped was slain by Zombie
+[01:07:42] [Server thread/INFO]: UmbraErr0r404 issued server command: /home
+[01:07:46] [Server thread/INFO]: UmbraErr0r404 issued server command: /tp home
+[01:07:46] [Server thread/INFO]: [UmbraErr0r404: Entity 'home' cannot be found]
+[01:07:52] [Server thread/INFO]: UmbraErr0r404 issued server command: /spawn
+[01:09:08] [Server thread/INFO]: There are 2/20 players online:
+[01:09:08] [Server thread/INFO]: UmbraErr0r404, psywiped
+[01:14:57] [Server thread/INFO]: psywiped issued server command: /tp UmbraErr0r404
+[01:14:57] [Server thread/INFO]: [psywiped: Teleported psywiped to UmbraErr0r404]
+[01:16:10] [Server thread/INFO]: psywiped has made the advancement [Suit Up]
+[01:16:12] [Server thread/INFO]: psywiped has made the advancement [Isn't It Iron Pick]
+[01:21:51] [Server thread/INFO]: UmbraErr0r404 lost connection: Disconnected
+[01:21:51] [Server thread/INFO]: UmbraErr0r404 left the game
+[01:22:07] [Server thread/INFO]: Stopping the server
+[01:22:07] [Server thread/INFO]: Stopping server
+[01:22:07] [Server thread/INFO]: [HomeSpawnPlus] Disabling HomeSpawnPlus v2.0-b610
+[01:22:07] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v2.5.1-SNAPSHOT-b720
+[01:22:07] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
+[01:22:07] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v2.5.0-SNAPSHOT-b435
+[01:22:07] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v2.5.1-SNAPSHOT-b756
+[01:22:07] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5.1-SNAPSHOT-b730
+[01:22:07] [Server thread/INFO]: [PermissionsBukkit] Disabling PermissionsBukkit v2.3
+[01:22:07] [Server thread/ERROR]: Error occurred while disabling PermissionsBukkit v2.3 (Is it up to date?)
 java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
 	at com.platymuus.bukkit.permissions.PermissionsPlugin.onDisable(PermissionsPlugin.java:154) ~[?:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-1.12.jar:git-Spigot-b78586d-2585751]
@@ -21,20 +615,14 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 	at net.minecraft.server.v1_12_R1.MinecraftServer.stop(MinecraftServer.java:464) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:612) [spigot-1.12.jar:git-Spigot-b78586d-2585751]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
-[01:09:28] [Server thread/INFO]: [PerWorldInventory] Disabling PerWorldInventory v1.10.0
-[01:09:28] [Server thread/INFO]: Saving players
-[01:09:28] [Server thread/INFO]: Saving worlds
-[01:09:28] [Server thread/INFO]: Saving chunks for level 'world'/overworld
-[01:09:28] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether
-[01:09:28] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end
-[01:09:29] [Server thread/INFO]: Saving chunks for level 'KingdomCome_nether'/the_nether
-[01:09:29] [Server thread/INFO]: Saving chunks for level 'KingdomCome_the_end'/the_end
-[01:09:29] [Server thread/INFO]: Saving chunks for level 'LPL'/overworld
-[01:09:29] [Server thread/INFO]: Saving chunks for level 'KittyCatTerritory'/overworld
-[01:09:29] [Server thread/INFO]: Saving chunks for level 'KingdomCome'/overworld
-[01:09:29] [Server thread/INFO]: Saving chunks for level 'LPL_nether'/the_nether
-[01:09:29] [Server thread/INFO]: Saving chunks for level 'Athalia_end'/the_end
-[01:09:29] [Server thread/INFO]: Saving chunks for level 'Island'/overworld
-[01:09:29] [Server thread/INFO]: Saving chunks for level 'Athalia_nether'/the_nether
-[01:09:29] [Server thread/INFO]: Saving chunks for level 'Athalia'/overworld
-[01:09:29] [Server thread/INFO]: Saving chunks for level 'PLchunk'/overworld
+[01:22:07] [Server thread/INFO]: [PerWorldInventory] Disabling PerWorldInventory v1.10.0
+[01:22:07] [Server thread/INFO]: Saving players
+[01:22:07] [Server thread/INFO]: psywiped lost connection: brb
+[01:22:07] [Server thread/INFO]: psywiped left the game
+[01:22:07] [Server thread/INFO]: Saving worlds
+[01:22:07] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[01:22:07] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether
+[01:22:07] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end
+[01:22:07] [Server thread/INFO]: Saving chunks for level 'Athalia_end'/the_end
+[01:22:07] [Server thread/INFO]: Saving chunks for level 'Athalia_nether'/the_nether
+[01:22:07] [Server thread/INFO]: Saving chunks for level 'Athalia'/overworld
