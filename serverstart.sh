@@ -2,6 +2,10 @@
 
 set -xe
 
+##
+#
+##
+
 save_local(){
     git stash
     # run update worlds script
@@ -21,7 +25,6 @@ git_claim_tag(){
 }
 
 update_to_next(){
-    git fetch
     git_claim_tag running
     git merge --no-ff origin/next --no-edit
     git submodule sync
@@ -50,6 +53,17 @@ apply_local(){
     git commit -m "auto commit sub-modules on `date \"+%Y-%m-%d\"`"
 }
 
+update_server(){
+    save_local
+    update_to_next
+    apply_local
+    git gc
+}
+
+##
+#
+##
+
 push_to_hub(){
     cd worlds
     git push -f
@@ -59,19 +73,37 @@ push_to_hub(){
     cd ..
     git fetch
     git push -f
+    git push --all
 }
 
-update_server(){
-    save_local
-    update_to_next
-    apply_local
-    push_to_hub
-    git gc
+seperate_next(){
+    git checkout next
+    git reset running
+    git commit --allow-empty -m "separator"
+    git checkout running
 }
+
+update_hub(){
+    seperate_next
+    push_to_hub
+}
+
+##
+#
+##
 
 start_server(){
     BINDIR=$(dirname "$(readlink -fn "$0")")
     java -Xmx1024M -jar $(ls |grep spi|grep jar|sort -r|head -n 1) --log-append true
+}
+
+##
+#
+##
+
+should_update(){
+    git fetch
+    git diff origin/next HEAD|grep "." >/dev/null
 }
 
 should_stop(){
@@ -79,6 +111,9 @@ should_stop(){
 }
 
 while ! should_stop ; do
-    update_server
+    if should_update ; then
+	update_server
+	update_hub
+    fi
     start_server
 done
