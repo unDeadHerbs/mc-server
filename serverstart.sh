@@ -33,6 +33,10 @@ update_to_next(){
     git submodule update --recursive
 }
 
+next_differs(){
+    git diff origin/next HEAD|grep "." >/dev/null
+}
+
 apply_local(){
     git pop
     git add --all
@@ -55,7 +59,9 @@ apply_local(){
 
 update_server(){
     save_local
-    update_to_next
+    if next_differs ; then
+	update_to_next
+    fi
     apply_local
     git gc
 }
@@ -73,7 +79,7 @@ push_to_hub(){
     cd ..
     git fetch
     git push -f
-    git push --all
+    git push origin next -f
 }
 
 seperate_next(){
