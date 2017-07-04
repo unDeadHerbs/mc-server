@@ -73,9 +73,18 @@ push_to_hub(){
     cd ..
     git fetch
     git push -f
+    git push --all
+}
+
+seperate_next(){
+    git checkout next
+    git reset running
+    git commit --allow-empty -m "separator"
+    git checkout running
 }
 
 update_hub(){
+    seperate_next
     push_to_hub
 }
 
