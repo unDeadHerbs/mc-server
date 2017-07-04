@@ -2,17 +2,17 @@ icons: {
     }
 sets:
     markers:
+        hide: false
         circles: {
             }
-        hide: false
-        markers: {
-            }
-        layerprio: 0
+        deficon: default
         areas: {
             }
-        deficon: default
+        label: Markers
+        markers: {
+            }
         lines: {
             }
-        label: Markers
+        layerprio: 0
 playersets: {
     }
