@@ -32,3 +32,8 @@ groups:
     - LPL_nether
     shares:
     - all
+  Athalia:
+    worlds:
+    - Athalia
+    - athalia_nether
+    - athalia_end

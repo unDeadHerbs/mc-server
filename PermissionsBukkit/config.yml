@@ -196,3 +196,14 @@ users:
     - user
     - nyan
     - world
+  6189e4e4-a881-4df6-9b8f-b03174255864:
+    groups:
+    - user
+    - world
+    - island
+  4f1d0ec0-3e99-4a1e-9d6a-e9b51ae525c9:
+    groups:
+    - user
+  1e1536ca-84e9-4ef3-aeec-bf09e9d52f3b:
+    groups:
+    - user
