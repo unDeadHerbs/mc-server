@@ -13,8 +13,8 @@ Management
   - [X] [Multiverse-Inventories](https://ci.onarandombox.com/job/Multiverse-Inventories/lastStableBuild/)
   - [X] [Multiverse-NetherPortals](https://ci.onarandombox.com/job/Multiverse-NetherPortals/lastStableBuild/)
   - [X] [Multiverse-Portals](https://ci.onarandombox.com/job/Multiverse-Portals/lastStableBuild/)
-- [ ] PermissionsBukkit
-- [ ] [PerWorldInventory](https://www.spigotmc.org/resources/per-world-inventory.4482/)
+- [X] [PermissionsBukkit](https://dev.bukkit.org/projects/permbukkit)
+- [X] [PerWorldInventory](https://www.spigotmc.org/resources/per-world-inventory.4482/)
 
 World Generators
 ----------------
@@ -23,5 +23,5 @@ World Generators
 
 User Features
 -------------
-- [X] [dynmap](https://www.spigotmc.org/resources/dynmap.274/)
-- [ ] HomeSpawnPlus
+- [ ] [dynmap](https://www.spigotmc.org/resources/dynmap.274/)
+- [X] [HomeSpawnPlus](https://dev.bukkit.org/projects/homespawnplus)
