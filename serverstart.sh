@@ -19,7 +19,7 @@ save_local(){
 
 git_claim_tag(){
     git checkout `git rev-parse --short HEAD`
-    git b -d "$@"
+    git b -D "$@"
     git b "$@"
     git checkout "$@"
 }
@@ -37,6 +37,7 @@ next_differs(){
     git diff origin/next HEAD|grep "." >/dev/null
 }
 
+# check for no stash or no commit
 apply_local(){
     git pop
     git add --all
@@ -108,12 +109,13 @@ start_server(){
 ##
 
 should_update(){
-    git fetch
-    git diff origin/next HEAD|grep "." >/dev/null
+    git fetch origin next
+    { git diff origin/next HEAD|grep "." >/dev/null } && {
+	git diff HEAD|grep "." >/dev/null }
 }
 
 should_stop(){
-    grep logs/latest.log "^[[][-09][0-9]:[0-9][0-9]:[0-9][0-9][]] [[]Server thread/INFO[]]: [[]Server[]] Shutdown$"
+    grep logs/latest.log "^[[][-09][0-9]:[0-9][0-9]:[0-9][0-9]([]] [[]Server thread/| )INFO[]]: [[]Server[]] Shutdown$"
 }
 
 while ! should_stop ; do
