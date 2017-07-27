@@ -109,7 +109,8 @@ start_server(){
 
 should_update(){
     git fetch origin next
-    git diff origin/next HEAD|grep "." >/dev/null
+    { git diff origin/next HEAD|grep "." >/dev/null } && {
+	git diff HEAD|grep "." >/dev/null }
 }
 
 should_stop(){
