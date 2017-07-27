@@ -37,6 +37,7 @@ next_differs(){
     git diff origin/next HEAD|grep "." >/dev/null
 }
 
+# check for no stash or no commit
 apply_local(){
     git pop
     git add --all
