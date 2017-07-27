@@ -113,7 +113,7 @@ should_update(){
 }
 
 should_stop(){
-    grep logs/latest.log "^[[][-09][0-9]:[0-9][0-9]:[0-9][0-9][]] [[]Server thread/INFO[]]: [[]Server[]] Shutdown$"
+    grep logs/latest.log "^[[][-09][0-9]:[0-9][0-9]:[0-9][0-9]([]] [[]Server thread/| )INFO[]]: [[]Server[]] Shutdown$"
 }
 
 while ! should_stop ; do
