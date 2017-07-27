@@ -37,3 +37,5 @@ groups:
     - Athalia
     - athalia_nether
     - athalia_end
+    shares:
+    - all

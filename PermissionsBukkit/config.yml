@@ -207,3 +207,9 @@ users:
   1e1536ca-84e9-4ef3-aeec-bf09e9d52f3b:
     groups:
     - user
+  47fc7865-1e6d-4a3b-85be-31f2830fb240:
+    groups:
+    - user
+  e4ae475d-64c2-432b-b2dd-752f4439bb61:
+    groups:
+    - user
