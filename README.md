@@ -25,5 +25,5 @@ User Features
 -------------
 - [ ] [dynmap](https://www.spigotmc.org/resources/dynmap.274/)
 - [X] [HomeSpawnPlus](https://dev.bukkit.org/projects/homespawnplus)
-- [ ] [WorldEdit](https://dev.bukkit.org/projects/worldedit/files/956525)
-- [ ] [VoxelSniper](https://dev.bukkit.org/projects/voxelsniper)
+- [X] [WorldEdit](https://dev.bukkit.org/projects/worldedit/files/956525)
+- [X] [VoxelSniper](https://dev.bukkit.org/projects/voxelsniper)
