@@ -5,15 +5,16 @@ This project is an attempt to make revisioning of the Minecraft server I manage 
 
 Branches
 --------
-- running
+- running:
   The version activity running on the server.
-- next
+- next:
   The version the server will be running on next restart.
-- dev
+- dev:
   The branch used for testing and development.
-- worlds
-  A backup of the world files for safety.
-- plugins
+- worlds:
+  ~A backup of the world files for safety.~
+  This is now a seperate [repository](https://github.com/unDeadHerbs/mc-server-maps/tree/worlds) to make this repo smaller.
+- plugins:
   Separated the plugins as they may be revision-ed more carefully later.
 
 
