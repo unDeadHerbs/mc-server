@@ -3,8 +3,26 @@
 set -xe
 
 ##
-#
+#  Utility
 ##
+
+git_claim_tag(){
+    git checkout `git rev-parse --short HEAD`
+    git b -D "$@"
+    git b "$@"
+    git checkout "$@"
+}
+
+
+next_differs_head(){
+    git diff origin/next HEAD|grep "." >/dev/null
+}
+
+##
+#  Update and Save Local Copy
+##
+
+# TODO: this can fail to make a stash and then pop will be bad in apply_saved
 
 save_local(){
     git stash
@@ -17,13 +35,6 @@ save_local(){
     cd ..
 }
 
-git_claim_tag(){
-    git checkout `git rev-parse --short HEAD`
-    git b -D "$@"
-    git b "$@"
-    git checkout "$@"
-}
-
 update_to_next(){
     git_claim_tag running
     git merge --no-ff origin/next --no-edit
@@ -33,24 +44,27 @@ update_to_next(){
     git submodule update --recursive
 }
 
-next_differs(){
-    git diff origin/next HEAD|grep "." >/dev/null
-}
-
 # check for no stash or no commit
-apply_local(){
+apply_saved(){
     git pop
-    git add --all
-    git commit -m "auto commit on `date \"+%Y-%m-%d\"`"
     cd worlds
     git_claim_tag worlds
     git pop
-    git add --all
-    git commit -m "auto commit on `date \"+%Y-%m-%d\"`"
     cd ..
     cd plugins
     git_claim_tag plugins
     git pop
+    cd ..
+}
+
+check_point_local(){
+    git add --all
+    git commit -m "auto commit on `date \"+%Y-%m-%d\"`"
+    cd worlds
+    git add --all
+    git commit -m "auto commit on `date \"+%Y-%m-%d\"`"
+    cd ..
+    cd plugins
     git add --all
     git commit -m "auto commit on `date \"+%Y-%m-%d\"`"
     cd ..
@@ -60,16 +74,22 @@ apply_local(){
 
 update_server(){
     save_local
-    if next_differs ; then
+    if next_differs_head ; then
 	update_to_next
     fi
-    apply_local
-    git gc
+    apply_saved
+    check_point_local
 }
 
 ##
-#
+#  Update Github Branches
 ##
+
+manuver_branches(){
+    git_claim_tag next
+    git commit --allow-empty -m "separator"
+    git checkout running
+}
 
 push_to_hub(){
     cd worlds
@@ -78,25 +98,17 @@ push_to_hub(){
     cd plugins
     git push -f
     cd ..
-    git fetch
     git push -f
     git push origin next -f
 }
 
-seperate_next(){
-    git checkout next
-    git reset running
-    git commit --allow-empty -m "separator"
-    git checkout running
-}
-
 update_hub(){
-    seperate_next
+    manuver_branches
     push_to_hub
 }
 
 ##
-#
+#  Run the Server
 ##
 
 start_server(){
@@ -105,7 +117,7 @@ start_server(){
 }
 
 ##
-#
+#  Top of Script
 ##
 
 should_update(){
