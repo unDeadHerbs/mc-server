@@ -110,11 +110,12 @@ start_server(){
 
 should_update(){
     git fetch origin next
-    { git diff origin/next HEAD|grep "." >/dev/null ; } && { git diff HEAD|grep "." >/dev/null ; }
+    { git diff origin/next HEAD|grep "." >/dev/null ; } && {
+	git diff HEAD|grep "." >/dev/null ; }
 }
 
 should_stop(){
-    grep logs/latest.log "^[[][-09][0-9]:[0-9][0-9]:[0-9][0-9]([]] [[]Server thread/| )INFO[]]: [[]Server[]] Shutdown$"
+    grep "^[[][-09][0-9]:[0-9][0-9]:[0-9][0-9]([]] [[]Server thread/| )INFO[]]: [[]Server[]] Shutdown$" logs/latest.log
 }
 
 while ! should_stop ; do
