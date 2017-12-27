@@ -1,26 +1,11 @@
-[16:59:51] [Server thread/INFO]: There are 0/20 players online:
-[16:59:51] [Server thread/INFO]: 
-[17:00:37] [Server thread/INFO]: Stopping the server
-[17:00:37] [Server thread/INFO]: Stopping server
-[17:00:37] [Server thread/INFO]: [HomeSpawnPlus] Disabling HomeSpawnPlus v2.0-b610
-[17:00:37] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v2.5.1-SNAPSHOT-b720
-[17:00:37] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
-[17:00:37] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v2.5.0-SNAPSHOT-b435
-[17:00:37] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v2.5.1-SNAPSHOT-b756
-[17:00:37] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5.1-SNAPSHOT-b730
-[17:00:37] [Server thread/INFO]: [VoxelSniper] Disabling VoxelSniper v5.171.0-SNAPSHOT
-[17:00:37] [Server thread/INFO]: [PermissionsBukkit] Disabling PermissionsBukkit v2.5
-[17:00:37] [Server thread/INFO]: [PerWorldInventory] Disabling PerWorldInventory v1.10.0
-[17:00:37] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.7;dd00bb1
-[17:00:37] [Server thread/INFO]: Saving players
-[17:00:37] [Server thread/INFO]: Saving worlds
-[17:00:37] [Server thread/INFO]: Saving chunks for level 'world'/overworld
-[17:00:37] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether
-[17:00:37] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end
-[17:00:37] [Server thread/INFO]: Saving chunks for level 'KingdomCome_nether'/the_nether
-[17:00:37] [Server thread/INFO]: Saving chunks for level 'KingdomCome_the_end'/the_end
-[17:00:37] [Server thread/INFO]: Saving chunks for level 'Island'/overworld
-[17:00:37] [Server thread/INFO]: Saving chunks for level 'Athalia_nether'/the_nether
-[17:00:37] [Server thread/INFO]: Saving chunks for level 'Athalia'/overworld
-[17:00:38] [Server thread/INFO]: Saving chunks for level 'KingdomCome'/overworld
-[17:00:38] [Server thread/INFO]: Saving chunks for level 'Athalia_end'/the_end
+[22:25:50] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[22:25:50] [Server thread/INFO]: Loading properties
+[22:25:50] [Server thread/INFO]: Default game type: SURVIVAL
+[22:25:50] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-549c1fa-8c37e2e (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[22:25:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:25:50] [Server thread/INFO]: Using 3 threads for Netty based IO
+[22:25:50] [Server thread/INFO]: Debug logging is disabled
+[22:25:50] [Server thread/INFO]: Generating keypair
+[22:25:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:25:51] [Server thread/INFO]: Using epoll channel type
+[22:25:51] [Thread-3/INFO]: Stopping server
